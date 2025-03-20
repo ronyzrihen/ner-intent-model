@@ -1,0 +1,3202 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts recorded in Jerusalem within the past 23 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 16:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Eilat in the past 7 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 08:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Tel Aviv in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-05 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you tell me if there were any Missile and Rocket Fire alerts in Jerusalem today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 20:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Beer Sheva in the past 23 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 16:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Hostile Aircraft Intrusion alerts occurred in Rishon LeZion in the past 17 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 22:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Beer Sheva in the last 328 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-08 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Eilat experience any Missile and Rocket Fire alerts in the last 5 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 10:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Eilat in the past 225 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-20 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Eilat in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 05:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Eilat in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-07 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Eilat in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-16 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Missile and Rocket Fire alerts happened in Tel Aviv in the last 191 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-23 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Hostile Aircraft Intrusion alerts in Haifa in the past 87 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-05 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check for alerts in Jerusalem within the previous 98 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-24 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Beer Sheva from the last 22 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 17:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you tell me if there were any Hostile Aircraft Intrusion alerts in Tel Aviv today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-23 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Rishon LeZion experience any Hostile Aircraft Intrusion alerts in the last 13 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 02:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check for alerts in Ashdod - Port within the previous 4 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 11:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Hostile Aircraft Intrusion alerts recorded in Netanya within the past 124 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-10-29 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Missile and Rocket Fire alerts in Eilat in the past 8 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 07:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Hostile Aircraft Intrusion alerts in Beer Sheva in the previous 360 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-03-07 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Ashdod - Port experience any Missile and Rocket Fire alerts in the last 19 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 20:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were reported in Haifa in the last 5 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 10:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Tel Aviv from the last 31 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-30 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts recorded in Beer Sheva within the past 24 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Ashdod - Port in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me a count of Missile and Rocket Fire alerts in Rishon LeZion over the past 263 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-06-12 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Rishon LeZion in the past 43 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-18 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Missile and Rocket Fire alerts in Tel Aviv in the past 321 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-15 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Netanya from the last 330 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-06 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Netanya in the past 222 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-23 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were reported in Ashdod - Port in the last 21 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 18:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me the count of Hostile Aircraft Intrusion alerts in Beer Sheva over the past 23 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 16:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Rishon LeZion experience any Hostile Aircraft Intrusion alerts in the last 249 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-06-26 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Beer Sheva experience any Hostile Aircraft Intrusion alerts in the last 11 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were recorded in Ashdod - Port in the last 215 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-30 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me a count of Missile and Rocket Fire alerts in Netanya over the past 52 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-09 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Beer Sheva in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-08 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did any Hostile Aircraft Intrusion alert happen in Tel Aviv in the last 306 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-30 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were reported in Beer Sheva in the last 2 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 13:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were reported in Jerusalem in the last 280 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-26 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Hostile Aircraft Intrusion alerts in Haifa in the past 13 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 02:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts in Tel Aviv in the last 12 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 03:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts in Beer Sheva in the last 10 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 05:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Hostile Aircraft Intrusion alerts in Ashdod - Port in the previous 20 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 19:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Missile and Rocket Fire alerts in Haifa recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-02 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts in Rishon LeZion in the last 131 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-10-22 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did any Hostile Aircraft Intrusion alert happen in Haifa in the last 8 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 07:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me a count of Missile and Rocket Fire alerts in Ashdod - Port over the past 20 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 19:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Hostile Aircraft Intrusion alerts occurred in Beer Sheva in the past 15 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 00:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were recorded in Tel Aviv in the last 55 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-06 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check for alerts in Netanya within the previous 194 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-20 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Jerusalem in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-16 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Ashdod - Port experience any Hostile Aircraft Intrusion alerts in the last 158 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-25 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Haifa from the last 4 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 11:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Missile and Rocket Fire alerts in Rishon LeZion recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-04 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Netanya from the last 9 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 06:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Netanya in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 05:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Hostile Aircraft Intrusion alerts happened in Haifa in the last 23 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 16:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me the count of Hostile Aircraft Intrusion alerts in Rishon LeZion over the past 307 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-29 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Haifa experience any Hostile Aircraft Intrusion alerts in the last 235 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-10 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Missile and Rocket Fire alerts in Rishon LeZion in the previous 11 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "List the number of alerts that occurred in Tel Aviv in the last 97 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-25 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Hostile Aircraft Intrusion alerts happened in Haifa in the last 39 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-22 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Hostile Aircraft Intrusion alerts in Ashdod - Port in the past 22 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 17:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Has Netanya experienced any Hostile Aircraft Intrusion alerts today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were reported in Beer Sheva in the last 4 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 11:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Rishon LeZion experience any Hostile Aircraft Intrusion alerts in the last 20 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 19:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did any Hostile Aircraft Intrusion alert happen in Rishon LeZion in the last 11 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Netanya in the last 3 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 12:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check for alerts in Ashdod - Port within the previous 284 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-22 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Hostile Aircraft Intrusion alerts in Tel Aviv in the previous 279 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-27 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Missile and Rocket Fire alerts in Beer Sheva in the past 244 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-01 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check for alerts in Beer Sheva within the previous 21 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 18:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you tell me if there were any Hostile Aircraft Intrusion alerts in Ashdod - Port today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-06-22 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Hostile Aircraft Intrusion alerts in Eilat recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 12:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Hostile Aircraft Intrusion alerts in Tel Aviv in the past 6 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 09:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were recorded in Rishon LeZion in the last 10 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 05:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me the count of Hostile Aircraft Intrusion alerts in Ashdod - Port over the past 24 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me the count of Missile and Rocket Fire alerts in Haifa over the past 173 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-10 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Missile and Rocket Fire alerts occurred in Beer Sheva in the past 360 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-03-07 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Missile and Rocket Fire alerts happened in Jerusalem in the last 115 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-07 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were recorded in Eilat in the last 22 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 17:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts in Haifa in the last 218 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-27 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were recorded in Jerusalem in the last 41 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-20 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Eilat experience any Hostile Aircraft Intrusion alerts in the last 192 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-22 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Hostile Aircraft Intrusion alerts recorded in Netanya within the past 17 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 22:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Missile and Rocket Fire alerts in Eilat recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 21:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Has Rishon LeZion experienced any Missile and Rocket Fire alerts today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-07 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check for alerts in Tel Aviv within the previous 231 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-14 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Missile and Rocket Fire alerts occurred in Tel Aviv in the past 80 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-12 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts in Eilat in the last 169 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-14 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Haifa in the last 48 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-13 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were reported in Ashdod - Port in the last 8 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 07:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Missile and Rocket Fire alerts happened in Jerusalem in the last 205 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-09 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Missile and Rocket Fire alerts happened in Beer Sheva in the last 17 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 22:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Ashdod - Port in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-13 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Hostile Aircraft Intrusion alerts recorded in Beer Sheva within the past 168 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-15 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were reported in Jerusalem in the last 291 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-15 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Hostile Aircraft Intrusion alerts happened in Haifa in the last 310 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-26 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Netanya in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-03-27 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts recorded in Jerusalem within the past 206 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-08 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Beer Sheva in the last 6 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 09:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check for alerts in Tel Aviv within the previous 7 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 08:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Missile and Rocket Fire alerts in Beer Sheva recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 01:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Missile and Rocket Fire alerts happened in Jerusalem in the last 4 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 11:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts recorded in Ashdod - Port within the past 3 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 12:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Netanya experience any Hostile Aircraft Intrusion alerts in the last 4 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 11:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me a count of Hostile Aircraft Intrusion alerts in Beer Sheva over the past 3 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 12:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Hostile Aircraft Intrusion alerts recorded in Netanya within the past 86 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-06 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Beer Sheva in the last 10 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 05:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Rishon LeZion in the past 190 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-24 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Hostile Aircraft Intrusion alerts recorded in Haifa within the past 5 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 10:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were recorded in Rishon LeZion in the last 291 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-15 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Hostile Aircraft Intrusion alerts in Ashdod - Port in the past 197 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-17 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Has Netanya experienced any Hostile Aircraft Intrusion alerts today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 20:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "List the number of alerts that occurred in Ashdod - Port in the last 23 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 16:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Missile and Rocket Fire alerts recorded in Rishon LeZion within the past 235 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-10 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Has Rishon LeZion experienced any Hostile Aircraft Intrusion alerts today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 18:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Eilat in the last 303 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-03 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "List the number of alerts that occurred in Netanya in the last 19 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 20:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Jerusalem in the past 133 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-10-20 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Hostile Aircraft Intrusion alerts recorded in Rishon LeZion within the past 17 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 22:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts in Rishon LeZion in the last 4 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 11:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Ashdod - Port experience any Missile and Rocket Fire alerts in the last 5 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 10:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Beer Sheva in the last 6 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 09:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were recorded in Tel Aviv in the last 236 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-09 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Eilat in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 19:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Netanya from the last 22 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 17:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Hostile Aircraft Intrusion alerts in Eilat in the previous 13 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 02:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Hostile Aircraft Intrusion alerts in Eilat in the past 53 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-08 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Hostile Aircraft Intrusion alerts in Haifa in the previous 89 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-03 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Hostile Aircraft Intrusion alerts in Jerusalem in the past 17 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 22:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Hostile Aircraft Intrusion alerts in Netanya in the previous 293 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-13 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Missile and Rocket Fire alerts in Beer Sheva in the past 8 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 07:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Missile and Rocket Fire alerts in Beer Sheva in the previous 302 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-04 15:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts recorded in Rishon LeZion within the past 5 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 10:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Hostile Aircraft Intrusion alerts occurred in Jerusalem in the past 185 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-29 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts in Jerusalem in the last 10 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 05:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were reported in Eilat in the last 73 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-19 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Hostile Aircraft Intrusion alerts occurred in Eilat in the past 6 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 09:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Hostile Aircraft Intrusion alerts recorded in Ashdod - Port within the past 285 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-21 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "List the number of alerts that occurred in Jerusalem in the last 12 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 03:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Jerusalem experience any Hostile Aircraft Intrusion alerts in the last 1 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 14:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Tel Aviv in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 10:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me the count of Missile and Rocket Fire alerts in Netanya over the past 23 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 16:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Hostile Aircraft Intrusion alerts happened in Jerusalem in the last 2 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 13:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "List the number of alerts that occurred in Rishon LeZion in the last 248 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-06-27 15:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Eilat in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 23:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me the count of Missile and Rocket Fire alerts in Netanya over the past 20 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 19:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Rishon LeZion from the last 14 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 01:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Missile and Rocket Fire alerts in Jerusalem in the previous 19 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 20:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Has Tel Aviv experienced any Hostile Aircraft Intrusion alerts today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-05-27 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Missile and Rocket Fire alerts in Ashdod - Port in the previous 3 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 12:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Missile and Rocket Fire alerts in Tel Aviv in the past 14 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 01:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Hostile Aircraft Intrusion alerts in Tel Aviv recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did any Hostile Aircraft Intrusion alert happen in Haifa in the last 54 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-07 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Hostile Aircraft Intrusion alerts in Netanya in the past 11 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts in Ashdod - Port in the last 2 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 13:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Missile and Rocket Fire alerts in Tel Aviv in the previous 8 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 07:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts recorded in Ashdod - Port within the past 167 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-16 15:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "List the number of alerts that occurred in Tel Aviv in the last 1 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 14:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Hostile Aircraft Intrusion alerts occurred in Haifa in the past 1 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 14:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Eilat experience any Missile and Rocket Fire alerts in the last 156 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-27 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Hostile Aircraft Intrusion alerts occurred in Netanya in the past 260 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-06-15 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts in Tel Aviv in the last 11 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Hostile Aircraft Intrusion alerts in Eilat in the past 161 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-09-22 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Show me the total Missile and Rocket Fire alerts in Netanya in the past 102 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-20 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Haifa in the last 3 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 12:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts in Netanya in the last 16 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 23:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Hostile Aircraft Intrusion alerts in Tel Aviv in the last 24 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Please provide the number of Missile and Rocket Fire alerts recorded in Netanya within the past 35 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-01-26 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me the count of Hostile Aircraft Intrusion alerts in Haifa over the past 312 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-24 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How frequent were Missile and Rocket Fire alerts in Netanya in the previous 72 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-20 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Missile and Rocket Fire alerts in Netanya recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-04-25 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were reported in Haifa in the last 7 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 08:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Eilat experience any Missile and Rocket Fire alerts in the last 12 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 03:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Check the records: how many Hostile Aircraft Intrusion alerts occurred in Beer Sheva in the past 8 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 07:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Eilat experience any Hostile Aircraft Intrusion alerts in the last 198 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-16 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Has Beer Sheva experienced any Hostile Aircraft Intrusion alerts today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 17:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any alerts in Beer Sheva in the last hour?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 09:48:56\", \":location\": \"Beer Sheva\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Haifa in the past 22 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 17:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were recorded in Eilat in the last 82 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-10 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Missile and Rocket Fire alerts happened in Eilat in the last 271 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-06-04 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were recorded in Haifa in the last 19 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 20:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Hostile Aircraft Intrusion alerts were reported in Rishon LeZion in the last 12 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 03:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did Jerusalem experience any Missile and Rocket Fire alerts in the last 231 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-07-14 15:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you check how many Missile and Rocket Fire alerts happened in Tel Aviv in the last 3 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 12:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Give me a count of Hostile Aircraft Intrusion alerts in Jerusalem over the past 2 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 13:48:56\", \":location\": \"Jerusalem\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many alerts were recorded in Eilat in the last 21 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 18:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Did any Missile and Rocket Fire alert happen in Ashdod - Port in the last 6 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 09:48:56\", \":location\": \"Ashdod - Port\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you tell me if there were any Missile and Rocket Fire alerts in Haifa today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-06-06 15:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me if there have been any Hostile Aircraft Intrusion alerts in Rishon LeZion recently."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 14:48:56\", \":location\": \"Rishon LeZion\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Can you tell me if there were any Missile and Rocket Fire alerts in Netanya today?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-12-30 15:48:56\", \":location\": \"Netanya\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Were there any Missile and Rocket Fire alerts in Haifa in the last 7 days?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 08:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "Tell me the number of Missile and Rocket Fire alerts in Haifa in the past 17 days."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-01 22:48:56\", \":location\": \"Haifa\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "I need to know the number of Missile and Rocket Fire alerts in Tel Aviv from the last 11 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2025-03-02 04:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "How many Missile and Rocket Fire alerts were reported in Eilat in the last 118 hours?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-11-04 15:48:56\", \":location\": \"Eilat\", \":title\": \"\\u05d9\\u05e8\\u05d9 \\u05e8\\u05e7\\u05d8\\u05d5\\u05ea \\u05d5\\u05d8\\u05d9\\u05dc\\u05d9\\u05dd\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "you are a dynamodb query generator that turns every input into the corresponding dynamodb request"
+            },
+            {
+                "role": "user",
+                "content": "List the number of alerts that occurred in Tel Aviv in the last 202 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "{\"TableName\": \"missile_alert\", \"FilterExpression\": \"alertDate >= :start AND contains(data, :location) AND title = :title\", \"ExpressionAttributeValues\": {\":start\": \"2024-08-12 15:48:56\", \":location\": \"Tel Aviv\", \":title\": \"\\u05d7\\u05d3\\u05d9\\u05e8\\u05ea \\u05db\\u05dc\\u05d9 \\u05d8\\u05d9\\u05e1 \\u05e2\\u05d5\\u05d9\\u05df\"}, \"Select\": \"COUNT\"}"
+            }
+        ]
+    }
+]
