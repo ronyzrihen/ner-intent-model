@@ -1,0 +1,681 @@
+[
+
+    {
+        "tokens": [
+            "why",
+            "doesn't",
+            "an",
+            "optical",
+            "mouse",
+            "work",
+            "on",
+            "a",
+            "glass",
+            "table",
+            "?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "What",
+            "is",
+            "the",
+            "best",
+            "off-road",
+            "motorcycle",
+            "trail",
+            "?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "What",
+            "is",
+            "Trans",
+            "Fat?",
+            "How",
+            "to",
+            "reduce",
+            "that?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "How",
+            "many",
+            "planes",
+            "Fedex",
+            "has?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "I-QUESTION_TYPE",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    
+    {
+        "tokens": [
+            "In",
+            "the",
+            "san",
+            "francisco",
+            "bay",
+            "area,",
+            "does",
+            "it",
+            "make",
+            "sense",
+            "to",
+            "rent",
+            "or",
+            "buy",
+            "?"
+        ],
+        "ner_tags": [
+            "O",
+            "O",
+            "B-LOCATION",
+            "I-LOCATION",
+            "I-LOCATION",
+            "I-LOCATION",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "What's",
+            "the",
+            "best",
+            "way",
+            "to",
+            "clean",
+            "a",
+            "keyboard?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Why",
+            "do",
+            "people",
+            "blush",
+            "when",
+            "they",
+            "are",
+            "embarrassed?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Is",
+            "Lin",
+            "Qingxia",
+            "(aka",
+            "Brigitte",
+            "Lin)",
+            "\"the",
+            "most",
+            "beautiful",
+            "woman",
+            "in",
+            "Chinese",
+            "cinema?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-LOCATION",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "What",
+            "is",
+            "the",
+            "origin",
+            "of",
+            "\"foobar\"?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "How",
+            "the",
+            "human",
+            "species",
+            "evolved?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    
+    {
+        "tokens": [
+            "Who",
+            "said",
+            "the",
+            "statement",
+            "below",
+            "and",
+            "what",
+            "does",
+            "it",
+            "mean?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "How",
+            "do",
+            "I",
+            "find",
+            "an",
+            "out",
+            "of",
+            "print",
+            "book?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "What",
+            "are",
+            "some",
+            "tips",
+            "on",
+            "finding",
+            "a",
+            "good",
+            "mortgage",
+            "broker?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "what's",
+            "the",
+            "best",
+            "way",
+            "to",
+            "create",
+            "a",
+            "bootable",
+            "windows/dos",
+            "CD?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "what",
+            "is",
+            "the",
+            "reason",
+            "for",
+            "the",
+            "increasing",
+            "divorce",
+            "percentage",
+            "in",
+            "the",
+            "western",
+            "world?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-LOCATION",
+            "O"
+        ]
+    },
+    
+    {
+        "tokens": [
+            "What",
+            "is",
+            "an",
+            "\"imaginary",
+            "number\"?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "What",
+            "are",
+            "good",
+            "sources",
+            "to",
+            "find",
+            "out",
+            "about",
+            "new",
+            "gospel",
+            "artists?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "How",
+            "a",
+            "black",
+            "hole",
+            "is",
+            "formed?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "When",
+            "will",
+            "Her",
+            "Majesty",
+            "be",
+            "released",
+            "in",
+            "Dvd",
+            "format?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Is",
+            "a",
+            "transponder",
+            "required",
+            "to",
+            "fly",
+            "in",
+            "class",
+            "C",
+            "airspace?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "How",
+            "to",
+            "get",
+            "rid",
+            "of",
+            "a",
+            "beehive?"
+        ],
+        "ner_tags": [
+            "B-QUESTION_TYPE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Nice",
+            "apartment",
+            "building",
+            "near",
+            "SBC",
+            "Park",
+            "?"
+        ],
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-LOCATION",
+            "I-LOCATION",
+            "O"
+        ]
+    },
+    {
+        "tokens": ["What's", "the", "capital", "city", "of", "Bolivia?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "B-LOCATION"]
+    },
+    {
+        "tokens": ["Why", "is", "it", "so", "foggy", "in", "San", "Francisco?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "B-LOCATION", "I-LOCATION"]
+    },
+    {
+        "tokens": ["Why", "does", "it", "seem", "that", "most", "of", "the", "diets", "don't", "work", "on", "over", "weight", "people?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Which", "car", "and", "house", "insurance", "company", "is", "recommended", "in", "California?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "B-LOCATION"]
+    },
+    {
+        "tokens": ["how", "do", "Elephants", "communicate?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O"]
+    },
+    {
+        "tokens": ["How", "come", "the", "usage", "of", "alternate", "power", "generators", "is", "not", "more", "prevalent", "in", "a", "state", "like", "California?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-LOCATION"]
+    },
+    {
+        "tokens": ["Why", "is", "water", "transparent?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Why", "do", "all", "zippers", "have", "\"YKK\"", "on", "them?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["When", "do", "you", "use", "a", "semicolon", "instead", "of", "a", "colon?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Why", "do", "people", "amputate", "dogs", "tail?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["How", "come", "stars", "are", "generally", "round?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["What", "is", "the", "best", "relational", "database?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Why", "do", "we", "yawn?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Which", "cat", "has", "the", "largest", "variety", "of", "prey?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Why", "can", "I", "see", "myself", "in", "a", "mirror?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Where", "is", "the", "best", "place", "to", "cycle", "in", "San", "Francisco?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "B-LOCATION", "I-LOCATION"]
+    },
+    {
+        "tokens": ["What", "is", "the", "name", "of", "the", "second", "US", "astronaut", "to", "land", "on", "the", "moon?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "B-LOCATION", "O", "O", "O", "O", "O", "B-LOCATION"]
+    },
+    {
+        "tokens": ["Which", "singer", "has", "the", "largest", "number", "of", "records?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["What", "animal", "laid", "the", "largest", "eggs?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Can", "water", "be", "hotter", "then", "100", "Celsius", "degrees?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Why", "do", "we", "only", "drink", "eggnog", "during", "Christmas?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "B-TIME_FRAME"]
+    },
+    {
+        "tokens": ["What's", "a", "good", "home", "based", "business?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["what", "is", "a", "tag,", "and", "why", "is", "it", "being", "hailed", "by", "some", "people", "as", "the", "greatest", "thing", "since", "sliced", "bread?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["What", "is", "the", "maximum", "number", "of", "identical", "stones", "so", "that", "after", "a", "look-alike", "is", "added...?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Does", "anyone", "know", "any", "Lutheran", "Church", "in", "or", "nearby", "Phoenix?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "B-LOCATION"]
+    },
+    {
+        "tokens": ["What", "movie", "did", "Joe", "Pesci", "describe", "kids", "as", "\"YUTS\"?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "B-PERSON", "I-PERSON", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Can", "you", "imagine", "seeing", "more", "colors?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Who", "is", "the", "world's", "highest", "paid", "actress?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Can", "you", "recommend", "a", "good", "preschool", "with", "childcare", "around", "New", "York?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "B-LOCATION", "I-LOCATION"]
+    },
+    {
+        "tokens": ["What", "does", "4", "8", "15", "16", "23", "42", "_really_", "mean?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["looking", "for", "a", "good", "spa", "in", "the", "SF", "bay", "area"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "B-LOCATION", "I-LOCATION", "I-LOCATION"]
+    },
+    {
+        "tokens": ["who", "should", "I", "start", "this", "week", "in", "fantasy", "football?", "Delhomme", "@BUF", "or", "Brooks", "@NYJ?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "B-TIME_FRAME", "I-TIME_FRAME", "O", "O", "O", "B-PERSON", "B-LOCATION", "O", "B-PERSON", "B-LOCATION"]
+    },
+    {
+        "tokens": ["What", "are", "the", "options", "for", "volleyball", "leagues", "in", "the", "south", "bay", "and", "SF?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "B-LOCATION", "I-LOCATION", "O", "B-LOCATION"]
+    },
+    {
+        "tokens": ["Why", "was", "the", "Passion", "of", "Christ", "a", "controversial", "movie?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "B-TITLE", "O", "B-TITLE", "O", "O", "O"]
+    },
+    {
+        "tokens": ["how", "can", "I", "recover", "the", "security", "key", "for", "my", "Yahoo!", "account?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "B-ORG", "O"]
+    },
+    {
+        "tokens": ["I'm", "new", "to", "road", "biking", "and", "need", "a", "bike", "under", "$1000.", "What", "frame", "and", "parts", "do", "you", "recommend?"],
+        "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+        "tokens": ["Is", "there", "a", "place", "where", "I", "can", "see", "graphs", "of", "U.S.", "National", "Budget", "allocations", "for", "the", "last", "few", "years?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "B-QUESTION_TYPE", "O", "O", "O", "O", "O", "B-LOCATION", "O", "O", "O", "O", "O", "B-TIME_FRAME", "I-TIME_FRAME", "O"]
+    },
+    {
+        "tokens": ["Who", "said", "\"Beauty", "is", "in", "the", "eye", "of", "the", "beholder\"?"],
+        "ner_tags": ["B-QUESTION_TYPE", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    }
+    
+]
