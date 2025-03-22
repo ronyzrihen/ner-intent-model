@@ -1,6 +1,5 @@
 [
     {
-      "tokens": [
         "why",
         "doesn't",
         "an",
@@ -10,26 +9,11 @@
         "on",
         "a",
         "glass",
-        "bootable",
-        "?"
-      ],
-      "ner_tags": [
-        "B-QUESTION_TYPE",
-        "I-QUESTION_TYPE",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ]
+        "table?",
+    
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -37,22 +21,11 @@
         "off-road",
         "motorcycle",
         "trail",
-        "?"
-      ],
-        "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "O",
-            "O",
-            "O",
-            "O",
-            "O",
-            "O"
-        ]
-    },
+        "?",
+    
+    }
     
     {
-      "tokens": [
         "What",
         "is",
         "Trans",
@@ -60,43 +33,20 @@
         "How",
         "to",
         "reduce",
-        "that",
-        "?"
-      ],
-        "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "O",
-            "O",
-            "O",
-            "O",
-            "O",
-            "O",
-            "O"
-        ]
-    },
+        "that?",
+    
+    }
     
     {
-      "tokens": [
         "How",
         "many",
         "planes",
         "Fedex",
-        "has",
-        "?"
-      ],
-        "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "O",
-            "O",
-            "O",
-            "O"
-        ],
+        "has?",
+    
     }
     
     {
-      "tokens": [
         "In",
         "the",
         "san",
@@ -113,11 +63,9 @@
         "buy",
         "?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What's",
         "the",
         "best",
@@ -127,11 +75,9 @@
         "a",
         "keyboard?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "people",
@@ -141,11 +87,9 @@
         "are",
         "embarrassed?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Is",
         "Lin",
         "Qingxia",
@@ -160,11 +104,9 @@
         "Chinese",
         "cinema?\",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -172,22 +114,18 @@
         "of",
         "\"foobar\"?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "the",
         "human",
         "species",
         "evolved?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Who",
         "said",
         "the",
@@ -199,11 +137,9 @@
         "it",
         "mean?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "do",
         "I",
@@ -214,11 +150,9 @@
         "print",
         "book?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "are",
         "some",
@@ -230,11 +164,9 @@
         "mortgage",
         "broker?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what's",
         "the",
         "best",
@@ -246,11 +178,9 @@
         "windos/dos",
         "CD?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "is",
         "the",
@@ -265,31 +195,25 @@
         "western",
         "world?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "an",
         "\"imaginary",
         "number\"?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Faxing",
         "a",
         "pizza,
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "are",
         "good",
@@ -302,19 +226,15 @@
         "gospel",
         "artists?",
     
-      ]
     }
     
     {
-      "tokens": [
         "space",
         "missions,
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "a",
         "black",
@@ -322,19 +242,15 @@
         "is",
         "formed?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Heavy",
         "water,
     
-      ]
     }
     
     {
-      "tokens": [
         "When",
         "will",
         "Her",
@@ -345,11 +261,9 @@
         "Dvd",
         "format?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Is",
         "a",
         "transponder",
@@ -361,11 +275,9 @@
         "C",
         "airspace?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "to",
         "get",
@@ -374,11 +286,9 @@
         "a",
         "beehive?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Nice",
         "apartment",
         "building",
@@ -386,11 +296,9 @@
         "SBC",
         "Park?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "are",
         "world's",
@@ -398,11 +306,9 @@
         "smallest",
         "nations?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -412,22 +318,18 @@
         "you",
         "know?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Economics",
         "of",
         "running",
         "a",
         "restaurant?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "gas",
@@ -437,11 +339,9 @@
         "into",
         "gas?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "we",
         "are",
@@ -454,11 +354,9 @@
         "generate",
         "electricity?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "doesn't",
         "the",
@@ -468,11 +366,9 @@
         "minor",
         "leagues?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What's",
         "the",
         "longest",
@@ -484,19 +380,15 @@
         "in",
         "it?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Formula1",
         "car,
     
-      ]
     }
     
     {
-      "tokens": [
         "how",
         "was",
         "Einstein's",
@@ -506,11 +398,9 @@
         "proven",
         "?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Can",
         "someone",
         "tell",
@@ -522,11 +412,9 @@
         "series",
         "finale?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "does",
         "a",
@@ -542,22 +430,18 @@
         "impending",
         "death,
     
-      ]
     }
     
     {
-      "tokens": [
         "how",
         "does",
         "a",
         "helicopter",
         "fly,
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "would",
         "Big",
@@ -572,11 +456,9 @@
         "11th",
         "school?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "effective",
         "is",
@@ -585,11 +467,9 @@
         "relieving",
         "stress?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Is",
         "there",
         "a",
@@ -600,53 +480,43 @@
         "Landlord-Tenant",
         "Law?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Triangular",
         "distribution",
         "random",
         "function,
     
-      ]
     }
     
     {
-      "tokens": [
         "Capturing",
         "light",
         "in",
         "a",
         "container,
     
-      ]
     }
     
     {
-      "tokens": [
         "When",
         "will",
         "Google",
         "buy",
         "Yahoo?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Do",
         "animals",
         "have",
         "feelings?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Is",
         "Trigonometry",
         "considered",
@@ -657,11 +527,9 @@
         "level",
         "math?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "is",
         "there",
@@ -672,11 +540,9 @@
         "an",
         "elevator?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Can",
         "someone",
         "explain",
@@ -685,11 +551,9 @@
         "of",
         "e=mc2?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "can",
         "Bush",
@@ -708,11 +572,9 @@
         "for",
         "war?",
     
-      ]
     }
     
     {
-      "tokens": [
         "where",
         "did",
         "term",
@@ -722,11 +584,9 @@
         "come",
         "from?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "can",
         "the",
@@ -736,11 +596,9 @@
         "their",
         "curse?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What's",
         "the",
         "cheapest",
@@ -751,11 +609,9 @@
         "from",
         "Asia?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "are",
         "there",
@@ -766,11 +622,9 @@
         "Olympics",
         "symbol?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -783,11 +637,9 @@
         "this",
         "season?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "was",
         "James",
@@ -795,11 +647,9 @@
         "wife's",
         "name?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "do",
         "I",
@@ -812,11 +662,9 @@
         "without",
         "penalty?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "are",
         "the",
@@ -830,11 +678,9 @@
         "in",
         "football?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -844,11 +690,9 @@
         "eye",
         "dogs?",
     
-      ]
     }
     
     {
-      "tokens": [
         "If",
         "I",
         "lose",
@@ -869,11 +713,9 @@
         "gain",
         "forward?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "are",
         "the",
@@ -887,11 +729,9 @@
         "a",
         "book?",
     
-      ]
     }
     
     {
-      "tokens": [
         "When",
         "can",
         "a",
@@ -901,11 +741,9 @@
         "to",
         "moon?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Condo/townhouse",
         "pricing",
         "in",
@@ -913,11 +751,9 @@
         "Jose,",
         "CA,
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "does",
         "the",
@@ -926,11 +762,9 @@
         "his",
         "name?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "long",
         "does",
@@ -947,11 +781,9 @@
         "the",
         "Moon?",
     
-      ]
     }
     
     {
-      "tokens": [
         "At",
         "what",
         "level",
@@ -962,11 +794,9 @@
         "for",
         "Kids?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Can",
         "anyone",
         "list",
@@ -978,11 +808,9 @@
         "common",
         "names?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Do",
         "all",
         "professional",
@@ -991,11 +819,9 @@
         "steroids",
         "now?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "is",
         "Dick",
@@ -1007,11 +833,9 @@
         "name",
         "Richard?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "do",
         "you",
@@ -1021,11 +845,9 @@
         "in",
         "love?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "is",
         "the",
@@ -1033,11 +855,9 @@
         "for",
         "headaches,
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "didn't",
         "anyone",
@@ -1049,11 +869,9 @@
         "Superdome",
         "earlier?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1064,33 +882,27 @@
         "out",
         "there?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "are",
         "gamma",
         "ray",
         "bursts?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why's",
         "watching",
         "Television",
         "so",
         "addictive?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1100,11 +912,9 @@
         "name",
         "'Soccer'?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What's",
         "the",
         "capital",
@@ -1112,11 +922,9 @@
         "of",
         "Bolivia?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "is",
         "it",
@@ -1126,11 +934,9 @@
         "San",
         "Francisco?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "does",
         "it",
@@ -1147,11 +953,9 @@
         "weight",
         "people?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Which",
         "car",
         "and",
@@ -1163,21 +967,17 @@
         "in",
         "California?",
     
-      ]
     }
     
     {
-      "tokens": [
         "how",
         "do",
         "Elephants",
         "communicate?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "come",
         "the",
@@ -1196,21 +996,17 @@
         "like",
         "Californi,
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "is",
         "water",
         "transparent?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "all",
@@ -1220,11 +1016,9 @@
         "on",
         "them?",
     
-      ]
     }
     
     {
-      "tokens": [
         "When",
         "do",
         "you",
@@ -1236,11 +1030,9 @@
         "a",
         "colon?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "people",
@@ -1248,11 +1040,9 @@
         "dogs",
         "tail?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "come",
         "stars",
@@ -1260,11 +1050,9 @@
         "generally",
         "round?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1272,21 +1060,17 @@
         "relational",
         "database?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "we",
         "yawn?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Which",
         "cat",
         "has",
@@ -1296,11 +1080,9 @@
         "of",
         "prey?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "can",
         "I",
@@ -1310,11 +1092,9 @@
         "a",
         "mirror?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Where",
         "is",
         "the",
@@ -1326,11 +1106,9 @@
         "San",
         "Francisco?",
     
-      ]
     }
     
     {
-      "tokens": [
         "where",
         "is",
         "the",
@@ -1341,11 +1119,9 @@
         "for",
         "love?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "is",
         "the",
@@ -1355,22 +1131,18 @@
         "one",
         "car?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Number",
         "one",
         "formula",
         "one",
         "driver?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "I",
@@ -1383,11 +1155,9 @@
         "Own",
         "Voice?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "type",
         "of",
@@ -1398,22 +1168,18 @@
         "the",
         "longest?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "are",
         "the",
         "base",
         "colors?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Who",
         "is",
         "Earth-2",
@@ -1427,11 +1193,9 @@
         "regular",
         "Superman?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "do",
         "you",
@@ -1443,11 +1207,9 @@
         "Supreme",
         "Court?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1456,11 +1218,9 @@
         "of",
         "life?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Where",
         "did",
         "the",
@@ -1473,11 +1233,9 @@
         "name",
         "from?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "does",
         "'zig'",
@@ -1490,11 +1248,9 @@
         "Base",
         "clip?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1504,11 +1260,9 @@
         "learn",
         "chinese?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "is",
         "it",
@@ -1520,11 +1274,9 @@
         "umbrella",
         "indoors?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1540,11 +1292,9 @@
         "the",
         "moon?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Which",
         "singer",
         "has",
@@ -1554,11 +1304,9 @@
         "of",
         "records,
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "animal",
         "laid",
@@ -1566,11 +1314,9 @@
         "largest",
         "eggs?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Can",
         "water",
         "be",
@@ -1580,11 +1326,9 @@
         "Celsius",
         "degrees?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "we",
@@ -1594,11 +1338,9 @@
         "during",
         "Christmas?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What's",
         "a",
         "good",
@@ -1606,11 +1348,9 @@
         "based",
         "business?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "is",
         "a",
@@ -1632,11 +1372,9 @@
         "sliced",
         "bread?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1653,11 +1391,9 @@
         "is",
         "added...?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Does",
         "anyone",
         "know",
@@ -1669,11 +1405,9 @@
         "nearby",
         "Phoenix?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "movie",
         "did",
@@ -1684,11 +1418,9 @@
         "as",
         "\"YUTS\"?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Can",
         "you",
         "imagine",
@@ -1696,11 +1428,9 @@
         "more",
         "colors?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Who",
         "is",
         "the",
@@ -1709,11 +1439,9 @@
         "paid",
         "actress?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Can",
         "you",
         "recommend",
@@ -1726,22 +1454,18 @@
         "New",
         "York?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "does",
         "\"xoxo\",
         "stand",
         "for?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Does",
         "echinacea",
         "really",
@@ -1749,11 +1473,9 @@
         "prevent",
         "colds?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
       "the",
@@ -1763,11 +1485,9 @@
         "the",
         "world?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "are",
         "the",
@@ -1776,11 +1496,9 @@
         "parental",
         "favoritism?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "is",
         "the",
@@ -1790,11 +1508,9 @@
         "the",
         "world?",
     
-      ]
     }
     
     {
-      "tokens": [
         "How",
         "did",
         "Calvin",
@@ -1802,11 +1518,9 @@
         "Hobbes",
         "meet?",
     
-      ]
     }
     
     {
-      "tokens": [
         "where",
         "can",
         "i",
@@ -1818,11 +1532,9 @@
         "to",
         "join?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1838,11 +1550,9 @@
         "Bay",
         "Area?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1853,11 +1563,9 @@
         "Southern",
         "Europe?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -1873,11 +1581,9 @@
         "veto",
         "power?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Which",
         "soccer",
         "team",
@@ -1889,11 +1595,9 @@
         "club",
         "championships?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Where",
         "can",
         "I",
@@ -1902,11 +1606,9 @@
         "about",
         "Superlatives?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "do",
         "we",
@@ -1924,11 +1626,9 @@
         "tickle",
         "ourselves?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "are",
         "the",
@@ -1940,11 +1640,9 @@
         "Bad",
         "Again?",
     
-      ]
     }
     
     {
-      "tokens": [
         "what",
         "is",
         "the",
@@ -1965,11 +1663,9 @@
         "from",
         "it?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Who",
         "is",
         "going",
@@ -1984,11 +1680,9 @@
         "off",
         "suspension?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Should",
         "T.O.",
         "be",
@@ -2004,11 +1698,9 @@
         "this",
         "season?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "does",
         "it",
@@ -2018,11 +1710,9 @@
         "a",
         "teacher?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "does",
         "4",
@@ -2034,11 +1724,9 @@
         "_really_",
         "mean?",
     
-      ]
     }
     
     {
-      "tokens": [
         "looking",
         "for",
         "a",
@@ -2050,11 +1738,9 @@
         "bay",
         "area,
     
-      ]
     }
     
     {
-      "tokens": [
         "who",
         "should",
         "I",
@@ -2070,11 +1756,9 @@
         "Brooks",
         "@NYJ?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "are",
         "the",
@@ -2089,11 +1773,9 @@
         "and",
         "SF?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "was",
         "the",
@@ -2104,11 +1786,9 @@
         "controversial",
         "movie?",
     
-      ]
     }
     
     {
-      "tokens": [
         "how",
         "can",
         "I",
@@ -2121,11 +1801,9 @@
         "Yahoo!",
         "account?",
     
-      ]
     }
     
     {
-      "tokens": [
         "I'm",
         "new",
         "to",
@@ -2145,11 +1823,9 @@
         "you",
         "recommend?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Is",
         "there",
         "a",
@@ -2170,11 +1846,9 @@
         "few",
         "years?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Who",
         "said",
         "\"Beauty",
@@ -2186,11 +1860,9 @@
         "the",
         "beholder\"?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Why",
         "doesn't",
         "college",
@@ -2200,11 +1872,9 @@
         "playoff",
         "system?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "kind",
         "of",
@@ -2212,11 +1882,9 @@
         "is",
         "that?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "a",
@@ -2227,11 +1895,9 @@
         "to",
         "purchase?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Who",
         "holds",
         "the",
@@ -2242,11 +1908,9 @@
         "in",
         "NFL?",
     
-      ]
     }
     
     {
-      "tokens": [
         "Should",
         "US",
         "computer",
@@ -2262,11 +1926,9 @@
         "other",
         "countries?",
     
-      ]
     }
     
     {
-      "tokens": [
         "If",
         "light",
         "travels",
@@ -2291,11 +1953,9 @@
         "TV",
         "?",
     
-      ]
     }
     
     {
-      "tokens": [
         "What",
         "is",
         "the",
@@ -2306,7 +1966,6 @@
         "into",
         "colleges?",
     
-      ]
     }
     ]
     
