@@ -1,13 +1,23 @@
 
 from transformers import pipeline
-# from query_creation import lambda_handler
+import json
+import wordninja
+import os
+
+
+model_path = os.environ.get("MODEL_PATH", "testing/ner_varied_model1")
 
 
 def lambda_handler(event, context):
     print(event)
-    text = event['text']
-    language = event['language']
-    nlp = pipeline("ner", model="/mnt/model", tokenizer="/mnt/model", aggregation_strategy="simple")
+    if event.get("body", ""):
+        body = json.loads(event.get("body", "{}"))
+        text = body.get("text", "")
+        language = body.get("language", "english")
+    else:
+        text = event.get("text", "")
+        language = event.get("language", "english")
+    nlp = pipeline("ner", model=model_path, tokenizer=model_path, aggregation_strategy="simple")
     entities = nlp(text)
     for item in entities:
         item["score"] = float(item["score"])
@@ -22,26 +32,38 @@ def lambda_handler(event, context):
 def merge_subwords(ner_results):
     merged_entities = []
     current_entity = None
-
     sub_words_count = 1
+
     for entity in ner_results:
-        if current_entity and entity["entity_group"] == current_entity["entity_group"]:
-            if entity["start"] == current_entity["end"]:
+        if current_entity:
+            if entity["entity_group"] == current_entity["entity_group"]:
                 current_entity["word"] += entity["word"]
-            else:
-                current_entity["score"] = current_entity["score"] / sub_words_count
-                sub_words_count = 1
-                merged_entities.append(current_entity)
-                current_entity = entity.copy()
-
-            current_entity["end"] = entity["end"] 
-            current_entity["score"] = (current_entity["score"] + entity["score"])
-            sub_words_count += 1
-        else:
-            if current_entity:
-                merged_entities.append(current_entity)
+                current_entity["score"] += entity["score"]
+                sub_words_count += 1
+                continue
+            current_entity["score"] = current_entity["score"] / sub_words_count
+            current_entity["word"] = split_if_needed(current_entity["word"])
+            merged_entities.append(current_entity)
             current_entity = entity.copy()
-    if current_entity:
-        merged_entities.append(current_entity)
-
+            sub_words_count = 1
+            continue
+        current_entity = entity.copy()
+    current_entity["score"] = current_entity["score"] / sub_words_count
+    current_entity["word"] = split_if_needed(current_entity["word"])
+    print(current_entity["word"])
+    merged_entities.append(current_entity)
     return merged_entities
+
+
+def split_if_needed(word):
+    parts = wordninja.split(word)
+    return " ".join(parts) if len(parts) > 1 else word
+
+
+# if __name__ == "__main__":
+#     event = {
+#         "text": "How many missile alerts were there in Tel Aviv three days ago",
+#         "language": "hebrew"
+#     }
+#     context = {}
+#     print(lambda_handler(event, context))

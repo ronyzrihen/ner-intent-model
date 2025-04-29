@@ -1,4 +1,5 @@
-[{
+[
+    {
         "tokens": [
             "How",
             "many",
@@ -11,10 +12,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -36,10 +37,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -61,10 +62,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -88,21 +89,20 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -118,11 +118,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -144,10 +144,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -170,10 +170,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -183,7 +183,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Were",
@@ -199,20 +198,19 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Retrieve",
@@ -225,10 +223,10 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -247,12 +245,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
@@ -272,10 +270,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -299,11 +297,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -326,12 +324,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -351,12 +349,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
@@ -375,10 +373,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -401,10 +399,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -428,13 +426,13 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -454,12 +452,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -488,11 +486,11 @@
             "O",
             "O",
             "O",
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -515,10 +513,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -540,9 +538,9 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -566,10 +564,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -593,12 +591,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
@@ -624,10 +622,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -635,8 +633,8 @@
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -655,10 +653,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -683,16 +681,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "I-LOCATION",
-            "B-COMP_OP",
+            "O",
             "B-LOCATION",
             "O"
         ]
@@ -711,11 +709,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -736,10 +734,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -763,13 +761,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -777,7 +775,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "When",
@@ -793,12 +790,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -820,10 +817,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -846,11 +843,11 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-DATE",
@@ -871,10 +868,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -895,11 +892,11 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -919,11 +916,11 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -945,13 +942,13 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -972,12 +969,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -998,10 +995,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1026,21 +1023,20 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1055,10 +1051,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1081,12 +1077,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
@@ -1110,22 +1106,21 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Show",
@@ -1141,20 +1136,19 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1170,11 +1164,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1183,7 +1177,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1200,10 +1193,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1214,7 +1207,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -1229,19 +1221,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1262,11 +1253,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1274,13 +1265,12 @@
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Were",
@@ -1298,13 +1288,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COUNT",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -1313,7 +1303,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Show",
@@ -1327,18 +1316,17 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1352,10 +1340,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -1363,7 +1351,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Tell",
@@ -1379,20 +1366,19 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "Retrieve",
@@ -1406,18 +1392,17 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "Were",
@@ -1432,11 +1417,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -1444,7 +1429,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Give",
@@ -1458,18 +1442,17 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -1481,21 +1464,21 @@
             "in",
             "the",
             "past",
-            "48",
+            "24",
             "hours",
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -1513,18 +1496,17 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "Tell",
@@ -1541,21 +1523,20 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "When",
@@ -1570,19 +1551,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1600,11 +1580,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1615,7 +1595,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1629,10 +1608,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1640,7 +1619,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1656,10 +1634,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1669,7 +1647,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Tell",
@@ -1685,13 +1662,13 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -1711,12 +1688,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -1734,17 +1711,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "When",
@@ -1762,12 +1738,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -1777,7 +1753,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Were",
@@ -1791,50 +1766,23 @@
             "in",
             "the",
             "past",
-            "12",
+            "24",
             "hours",
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
-            "O"
-        ]
-    },
-
-    {
-        "tokens": [
-            "Has",
-            "there",
-            "been",
-            "any",
-            "drone",
-            "intrusion",
-            "alerts",
-            "this",
-            "month",
-            "?"
-        ],
-        "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "O",
-            "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
-            "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -1853,13 +1801,39 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "B-TIME_FRAME",
+            "I-TIME_FRAME",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Has",
+            "there",
+            "been",
+            "any",
+            "drone",
+            "intrusion",
+            "alerts",
+            "this",
+            "month",
+            "?"
+        ],
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -1876,23 +1850,23 @@
             "in",
             "the",
             "past",
-            "72",
+            "24",
             "hours",
             "in",
             "Menashe",
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O",
             "B-LOCATION",
@@ -1916,7 +1890,7 @@
             "in",
             "the",
             "past",
-            "48",
+            "24",
             "hours",
             "?"
         ],
@@ -1924,24 +1898,23 @@
             "O",
             "O",
             "O",
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -1958,11 +1931,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -1989,11 +1962,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -2018,12 +1991,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -2045,13 +2018,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -2071,18 +2044,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Retrieve",
@@ -2097,12 +2069,12 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -2129,17 +2101,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O",
             "B-LOCATION",
@@ -2162,13 +2134,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -2188,10 +2160,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -2212,18 +2184,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Were",
@@ -2242,23 +2213,22 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "When",
@@ -2272,12 +2242,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -2296,12 +2266,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -2320,23 +2290,23 @@
             "in",
             "the",
             "past",
-            "20",
+            "24",
             "hours",
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -2353,12 +2323,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
@@ -2376,11 +2346,11 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -2401,10 +2371,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -2413,7 +2383,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "When",
@@ -2427,12 +2396,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -2454,13 +2423,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -2483,16 +2452,16 @@
             "in",
             "the",
             "past",
-            "10",
+            "24",
             "hours",
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -2500,8 +2469,8 @@
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -2523,11 +2492,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -2556,13 +2525,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O",
@@ -2585,12 +2554,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -2611,20 +2580,19 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -2641,21 +2609,20 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -2672,16 +2639,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -2698,12 +2665,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
@@ -2721,13 +2688,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-DATE",
             "O"
         ]
@@ -2747,20 +2714,19 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
-            "O",
-            "B-COUNT",
             "O",
             "O",
-            "B-ALERT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -2777,16 +2743,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -2804,12 +2770,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -2829,12 +2795,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -2856,10 +2822,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -2883,10 +2849,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -2908,12 +2874,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -2942,14 +2908,14 @@
             "O",
             "O",
             "O",
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "O",
-            "B-FIRE",
-            "I-FIRE",
             "O",
             "O",
             "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "O",
+            "O",
+            "B-TIME_FRAME",
             "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O",
@@ -2957,7 +2923,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -2975,11 +2940,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3001,9 +2966,9 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "O",
             "B-LOCATION",
@@ -3024,20 +2989,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O"
-
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -3051,12 +3014,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -3078,10 +3041,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O",
@@ -3105,10 +3068,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3133,14 +3096,14 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -3148,7 +3111,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -3163,10 +3125,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3175,7 +3137,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Show",
@@ -3190,12 +3151,12 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -3216,12 +3177,12 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -3241,12 +3202,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -3267,10 +3228,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3294,11 +3255,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "B-COUNT",
-            "B-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -3322,10 +3283,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3352,13 +3313,13 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-DATE",
@@ -3380,10 +3341,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3405,12 +3366,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-TIME_FRAME",
             "O"
@@ -3432,16 +3393,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -3461,13 +3422,13 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -3488,10 +3449,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3516,14 +3477,14 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -3542,12 +3503,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
@@ -3565,10 +3526,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -3590,19 +3551,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -3618,10 +3578,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3647,23 +3607,22 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
     {
         "tokens": [
-
             "in",
             "Alonei",
             "Itzhak",
@@ -3682,13 +3641,13 @@
             "O",
             "B-LOCATION",
             "I-LOCATION",
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -3708,10 +3667,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3735,12 +3694,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -3748,7 +3707,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -3763,10 +3721,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3788,12 +3746,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -3815,10 +3773,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3844,12 +3802,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -3872,10 +3830,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3902,14 +3860,14 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -3933,10 +3891,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3960,10 +3918,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -3991,11 +3949,11 @@
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
-            "B-QUESTION_TYPE",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -4016,13 +3974,13 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -4042,11 +4000,11 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -4067,11 +4025,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4079,7 +4037,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "When",
@@ -4095,13 +4052,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -4122,10 +4079,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4148,10 +4105,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4174,10 +4131,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4186,7 +4143,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Tell",
@@ -4202,13 +4158,13 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -4229,13 +4185,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -4257,12 +4213,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -4285,12 +4241,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -4311,10 +4267,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4341,18 +4297,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -4370,10 +4326,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4396,13 +4352,13 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -4423,10 +4379,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4456,21 +4412,21 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -4488,12 +4444,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -4516,17 +4472,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -4544,10 +4500,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4568,10 +4524,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -4597,13 +4553,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O",
@@ -4629,10 +4585,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4659,10 +4615,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-ALERT",
-            "I-ALERT",
-            "B-ALERT",
-            "I-ALERT",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4689,13 +4645,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -4717,12 +4673,12 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -4744,10 +4700,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4773,15 +4729,15 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "O",
-            "O",
-            "B-ALERT",
-            "I-ALERT",
             "O",
             "O",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "O",
+            "O",
+            "B-TIME_FRAME",
             "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -4803,10 +4759,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
@@ -4828,11 +4784,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
@@ -4853,17 +4809,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
@@ -4881,11 +4837,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -4910,14 +4866,14 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -4941,21 +4897,20 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "O",
-            "O",
-            "B-ROCKT",
-            "I-ROCKT",
             "O",
             "O",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "O",
+            "O",
+            "B-TIME_FRAME",
             "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -4969,13 +4924,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
@@ -4999,10 +4954,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5010,8 +4965,8 @@
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -5031,13 +4986,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -5058,17 +5013,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
-
         ]
     },
     {
@@ -5086,16 +5040,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
@@ -5114,18 +5068,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O"
-
         ]
     },
     {
@@ -5142,10 +5095,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5167,12 +5120,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -5194,12 +5147,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -5223,16 +5176,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
             "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
@@ -5252,10 +5205,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5280,17 +5233,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "O"
-
         ]
     },
     {
@@ -5306,10 +5258,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5330,10 +5282,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5356,11 +5308,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -5384,13 +5336,13 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -5413,17 +5365,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
@@ -5443,10 +5395,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5470,11 +5422,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-LOCATION",
@@ -5496,13 +5448,13 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -5522,12 +5474,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -5548,9 +5500,9 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5574,12 +5526,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -5603,13 +5555,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -5633,10 +5585,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5662,13 +5614,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -5689,9 +5641,9 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "O",
             "B-LOCATION",
@@ -5712,16 +5664,15 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
-
         ]
     },
     {
@@ -5738,13 +5689,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -5763,10 +5714,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5790,10 +5741,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5820,14 +5771,14 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -5850,13 +5801,13 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
             "O",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-DATE",
@@ -5880,14 +5831,14 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -5912,18 +5863,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -5941,10 +5892,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-LOCATION",
@@ -5972,11 +5923,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -5984,8 +5935,8 @@
             "I-LOCATION",
             "I-LOCATION",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
@@ -6004,13 +5955,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -6034,11 +5985,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6063,12 +6014,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -6089,13 +6040,13 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -6115,12 +6066,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -6139,10 +6090,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -6166,10 +6117,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6193,12 +6144,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
@@ -6217,11 +6168,11 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -6241,9 +6192,9 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6266,13 +6217,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
@@ -6293,13 +6244,13 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-TERRORIST",
-            "I-TERRORIST",
-            "I-TERRORIST",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -6319,11 +6270,11 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
@@ -6342,12 +6293,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-DATE",
             "O"
         ]
@@ -6366,10 +6317,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6390,12 +6341,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-EARTHQUAKE",
-            "I-EARTHQUAKE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-DATE",
             "O"
         ]
@@ -6418,23 +6369,22 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Do",
@@ -6459,23 +6409,22 @@
             "O",
             "O",
             "O",
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Were",
@@ -6500,12 +6449,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-DRONE",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "O",
             "B-LOCATION",
@@ -6516,13 +6465,12 @@
             "O",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -6538,11 +6486,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6551,7 +6499,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Tell",
@@ -6567,20 +6514,19 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "How",
@@ -6599,10 +6545,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6615,7 +6561,6 @@
             "O"
         ]
     },
-
     {
         "tokens": [
             "Show",
@@ -6629,18 +6574,17 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "Give",
@@ -6656,20 +6600,19 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
             "O",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "When",
@@ -6684,19 +6627,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Show",
@@ -6709,17 +6651,16 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
-            "B-COUNT",
-            "B-EARTHQUAKE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
     {
         "tokens": [
             "Has",
@@ -6733,19 +6674,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Tell",
@@ -6759,19 +6698,17 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -6787,21 +6724,19 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -6821,13 +6756,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -6838,8 +6773,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -6858,24 +6791,22 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -6891,11 +6822,11 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6904,8 +6835,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -6919,10 +6848,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6930,8 +6859,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -6948,10 +6875,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -6962,8 +6889,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Give",
@@ -6979,21 +6904,19 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -7009,12 +6932,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -7022,8 +6945,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Give",
@@ -7039,21 +6960,19 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "Has",
@@ -7068,20 +6987,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7098,13 +7015,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7112,8 +7029,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Has",
@@ -7127,19 +7042,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7154,10 +7067,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7166,8 +7079,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -7181,10 +7092,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -7192,8 +7103,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Has",
@@ -7206,17 +7115,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
     },
-
     {
         "tokens": [
             "Were",
@@ -7233,22 +7141,20 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7263,10 +7169,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7275,8 +7181,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Has",
@@ -7293,22 +7197,20 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
             "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
+            "I-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "When",
@@ -7323,20 +7225,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Give",
@@ -7352,21 +7252,19 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
             "O",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "Has",
@@ -7381,20 +7279,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "When",
@@ -7408,19 +7304,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Tell",
@@ -7439,24 +7333,22 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "Please",
@@ -7474,11 +7366,11 @@
         ],
         "ner_tags": [
             "O",
-            "B-ACTION",
             "O",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -7487,8 +7379,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "When",
@@ -7502,19 +7392,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-DRONE",
-            "I-DRONE",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Has",
@@ -7528,19 +7416,17 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Retrieve",
@@ -7555,20 +7441,18 @@
             "2024"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7583,10 +7467,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7595,8 +7479,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -7612,12 +7494,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "B-TIME_FRAME",
@@ -7625,8 +7507,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -7648,12 +7528,12 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -7661,14 +7541,12 @@
             "I-LOCATION",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Give",
@@ -7684,21 +7562,19 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
             "O",
-            "B-COUNT",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7712,10 +7588,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7723,8 +7599,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Retrieve",
@@ -7737,18 +7611,16 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
-            "I-ACTION",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "When",
@@ -7763,20 +7635,18 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
             "O",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Show",
@@ -7792,21 +7662,19 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
             "O",
-            "B-COUNT",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7826,10 +7694,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7843,8 +7711,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Has",
@@ -7857,18 +7723,16 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
             "O",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "B-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7888,10 +7752,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7899,14 +7763,12 @@
             "O",
             "O",
             "O",
-            "O",
             "B-TIME_FRAME",
+            "I-TIME_FRAME",
             "I-TIME_FRAME",
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -7924,10 +7786,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -7939,8 +7801,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -7954,10 +7814,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -7965,8 +7825,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Show",
@@ -7980,19 +7838,17 @@
             "2022"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-COUNT",
-            "B-ALERT",
-            "I-ALERT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -8007,10 +7863,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -8019,8 +7875,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -8043,28 +7897,26 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
             "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
-            "O",
+            "I-LOCATION",
             "O",
             "O",
             "B-TIME_FRAME",
             "I-TIME_FRAME",
-            "0"
+            "I-TIME_FRAME",
+            "O"
         ]
     },
-
-
     {
         "tokens": [
             "Were",
@@ -8081,13 +7933,13 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
             "O",
-            "B-COMP_OP",
-            "I-COMP_OP",
-            "B-COUNT",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-LOCATION",
             "I-LOCATION",
@@ -8095,8 +7947,6 @@
             "O"
         ]
     },
-
-
     {
         "tokens": [
             "Retrieve",
@@ -8112,21 +7962,19 @@
             "2023"
         ],
         "ner_tags": [
-            "B-ACTION",
             "O",
-            "B-COUNT",
             "O",
-            "B-DRONE",
-            "I-DRONE",
-            "I-DRONE",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "B-DATE",
             "I-DATE",
             "I-DATE"
         ]
     },
-
-
     {
         "tokens": [
             "How",
@@ -8142,10 +7990,10 @@
             "?"
         ],
         "ner_tags": [
-            "B-QUESTION_TYPE",
-            "I-QUESTION_TYPE",
-            "B-ROCKT",
-            "I-ROCKT",
+            "O",
+            "O",
+            "B-ALERT_TYPE",
+            "I-ALERT_TYPE",
             "O",
             "O",
             "O",
@@ -8154,48 +8002,5 @@
             "B-TIME_FRAME",
             "O"
         ]
-    },
-    {
-        "tokens": [
-            "what",
-            "alerts",
-            "were",
-            "activated",
-            "a", 
-            "week",
-            "ago"
-        ],
-        "ner_tags": [
-            "B-QUESTION_TYPE",
-            "B-ALERT",
-            "O",
-            "O",
-            "B-TIME_FRAME",
-            "I-TIME_FRAME",
-            "I-TIME_FRAME"
-        ]
-    },
-    {
-        "tockens": [
-            "was",
-            "Tel",
-            "Aviv",
-            "attacked",
-            "by",
-            "rockets",
-            "last",
-            "week"
-        ],
-        "ner_tags": [
-            "O",
-            "B-LOCATION",
-            "I-LOCATION",
-            "O",
-            "O",
-            "B-ROCKT",
-            "B-TIME_FRAME",
-            "I-TIME_FRAME"
-        ]
     }
-
 ]

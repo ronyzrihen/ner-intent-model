@@ -5,6 +5,7 @@ RUN pip install --upgrade pip
 RUN pip install torch \
     --extra-index-url https://download.pytorch.org/whl/cpu \
     transformers numpy
+RUN pip install wordninja
 
 COPY Lambdas/classify.py ./
 
