@@ -1,0 +1,285 @@
+[{
+        "text": "Which area was hit the hardest in the past month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the last 2 weeks, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Over the past 24 hours, which place got the most alerts?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region experienced the most red alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 7 months?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 3 month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens in the past month.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most alerts triggered over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most rocket sirens in the past month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region had the most red alert activity during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens in the past 24 hours.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where did most red alerts occur in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Name the most alerted location in the past month.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Over during the past 48 hours, which place got the most alerts?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Top alerted city in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During  the last 7 days, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region experienced the most red alerts over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region had the most red alert activity since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Who had the highest alert count since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Since yesterday, which place got the most alerts?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Who had the highest alert count in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "In what area were the most alert sirens heard during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Top alerted city since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most rocket sirens over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where did most red alerts occur since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Tell me which city had the most alerts in the last 2 weeks.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region had the most red alert activity in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Top alerted city during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region experienced the most red alerts in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the past week, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most rocket sirens in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens since yesterday.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the highest alert frequencies recorded in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where did most red alerts occur in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Tell me which city had the most alerts over the past week.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which location had the most red alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the highest alert frequencies recorded over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Name the most alerted location since yesterday.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the past month, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Who had the highest alert count in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the highest alert frequencies recorded in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which location had the most red alerts in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the past week, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which location had the most red alerts in the past month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Tell me which city had the most alerts in the past month.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most alerts triggered during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most alerts triggered in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens during the past 48 hours.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the past 48 hours, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    }
+]

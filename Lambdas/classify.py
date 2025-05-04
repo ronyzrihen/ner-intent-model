@@ -5,10 +5,8 @@ import wordninja
 import os
 
 
-model_path = os.environ.get("MODEL_PATH", "testing/ner_varied_model1")
-
-
 def lambda_handler(event, context):
+    model_path = os.environ.get("MODEL_PATH", "testing/ner_varied_model1")
     print(event)
     if event.get("body", ""):
         body = json.loads(event.get("body", "{}"))
