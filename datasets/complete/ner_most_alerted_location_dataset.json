@@ -1,6 +1,6 @@
 [
     {
-        "token": [
+        "tokens": [
             "Which",
             "area",
             "was",
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "During",
             "the",
             "last",
@@ -37,7 +37,7 @@
             "had",
             "the",
             "most",
-            "sirens?"
+            "sirens"
         ],
         "ner_tags": [
             "O",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Over",
             "the",
             "past",
@@ -65,7 +65,7 @@
             "got",
             "the",
             "most",
-            "alerts?"
+            "alerts"
         ],
         "ner_tags": [
             "O",
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "region",
             "experienced",
@@ -94,7 +94,7 @@
             "the",
             "last",
             "7",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "city",
             "had",
@@ -124,7 +124,7 @@
             "the",
             "last",
             "3",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "What",
             "area",
             "experienced",
@@ -155,7 +155,7 @@
             "the",
             "last",
             "2",
-            "weeks?"
+            "weeks"
         ],
         "ner_tags": [
             "O",
@@ -174,7 +174,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "place",
             "was",
@@ -187,7 +187,7 @@
             "the",
             "last",
             "7",
-            "months?"
+            "months"
         ],
         "ner_tags": [
             "O",
@@ -206,7 +206,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "place",
             "was",
@@ -219,7 +219,7 @@
             "the",
             "last",
             "3",
-            "month?"
+            "month"
         ],
         "ner_tags": [
             "O",
@@ -238,7 +238,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Find",
             "the",
             "city",
@@ -266,7 +266,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "were",
             "the",
@@ -276,7 +276,7 @@
             "over",
             "the",
             "past",
-            "week?"
+            "week"
         ],
         "ner_tags": [
             "O",
@@ -292,7 +292,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "city",
             "had",
@@ -304,7 +304,7 @@
             "the",
             "past",
             "48",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -322,7 +322,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "were",
             "the",
@@ -332,7 +332,7 @@
             "in",
             "the",
             "past",
-            "month?"
+            "month"
         ],
         "ner_tags": [
             "O",
@@ -348,7 +348,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "region",
             "had",
@@ -361,7 +361,7 @@
             "the",
             "past",
             "48",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -380,7 +380,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Find",
             "the",
             "city",
@@ -410,7 +410,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "did",
             "most",
@@ -421,7 +421,7 @@
             "the",
             "last",
             "2",
-            "weeks?"
+            "weeks"
         ],
         "ner_tags": [
             "O",
@@ -438,7 +438,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "What",
             "area",
             "experienced",
@@ -450,7 +450,7 @@
             "over",
             "the",
             "past",
-            "week?"
+            "week"
         ],
         "ner_tags": [
             "O",
@@ -468,7 +468,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Name",
             "the",
             "most",
@@ -492,7 +492,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "During",
             "the",
             "past",
@@ -503,7 +503,7 @@
             "got",
             "the",
             "most",
-            "alerts?"
+            "alerts"
         ],
         "ner_tags": [
             "O",
@@ -520,7 +520,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Top",
             "alerted",
             "city",
@@ -528,7 +528,7 @@
             "the",
             "last",
             "3",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -542,7 +542,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "city",
             "had",
@@ -554,7 +554,7 @@
             "the",
             "past",
             "24",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -572,7 +572,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "area",
             "was",
@@ -583,7 +583,7 @@
             "the",
             "last",
             "3",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -600,7 +600,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "During",
             "the",
             "last",
@@ -611,7 +611,7 @@
             "had",
             "the",
             "most",
-            "sirens?"
+            "sirens"
         ],
         "ner_tags": [
             "O",
@@ -628,7 +628,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "region",
             "experienced",
@@ -639,7 +639,7 @@
             "over",
             "the",
             "past",
-            "week?"
+            "week"
         ],
         "ner_tags": [
             "O",
@@ -656,7 +656,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "region",
             "had",
@@ -666,7 +666,7 @@
             "alert",
             "activity",
             "since",
-            "yesterday?"
+            "yesterday"
         ],
         "ner_tags": [
             "O",
@@ -682,7 +682,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Who",
             "had",
             "the",
@@ -690,7 +690,7 @@
             "alert",
             "count",
             "since",
-            "yesterday?"
+            "yesterday"
         ],
         "ner_tags": [
             "O",
@@ -704,7 +704,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Since",
             "yesterday,",
             "which",
@@ -712,7 +712,7 @@
             "got",
             "the",
             "most",
-            "alerts?"
+            "alerts"
         ],
         "ner_tags": [
             "O",
@@ -726,7 +726,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Who",
             "had",
             "the",
@@ -737,7 +737,7 @@
             "the",
             "past",
             "24",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -754,7 +754,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "In",
             "what",
             "area",
@@ -768,7 +768,7 @@
             "the",
             "past",
             "48",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -788,12 +788,12 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Top",
             "alerted",
             "city",
             "since",
-            "yesterday?"
+            "yesterday"
         ],
         "ner_tags": [
             "O",
@@ -804,7 +804,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "were",
             "the",
@@ -814,7 +814,7 @@
             "over",
             "the",
             "past",
-            "week?"
+            "week"
         ],
         "ner_tags": [
             "O",
@@ -830,7 +830,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "did",
             "most",
@@ -838,7 +838,7 @@
             "alerts",
             "occur",
             "since",
-            "yesterday?"
+            "yesterday"
         ],
         "ner_tags": [
             "O",
@@ -852,7 +852,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "area",
             "was",
@@ -863,7 +863,7 @@
             "the",
             "past",
             "24",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -880,7 +880,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Tell",
             "me",
             "which",
@@ -912,7 +912,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "city",
             "had",
@@ -924,7 +924,7 @@
             "the",
             "last",
             "7",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -942,7 +942,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "region",
             "had",
@@ -955,7 +955,7 @@
             "the",
             "last",
             "7",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -974,7 +974,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "area",
             "was",
@@ -982,7 +982,7 @@
             "the",
             "hardest",
             "since",
-            "yesterday?"
+            "yesterday"
         ],
         "ner_tags": [
             "O",
@@ -996,7 +996,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Top",
             "alerted",
             "city",
@@ -1004,7 +1004,7 @@
             "the",
             "past",
             "48",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -1018,7 +1018,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "region",
             "experienced",
@@ -1030,7 +1030,7 @@
             "the",
             "last",
             "3",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -1048,7 +1048,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "During",
             "the",
             "past",
@@ -1058,7 +1058,7 @@
             "had",
             "the",
             "most",
-            "sirens?"
+            "sirens"
         ],
         "ner_tags": [
             "O",
@@ -1074,7 +1074,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "place",
             "was",
@@ -1087,7 +1087,7 @@
             "the",
             "last",
             "2",
-            "weeks?"
+            "weeks"
         ],
         "ner_tags": [
             "O",
@@ -1106,7 +1106,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "place",
             "was",
@@ -1118,7 +1118,7 @@
             "over",
             "the",
             "past",
-            "week?"
+            "week"
         ],
         "ner_tags": [
             "O",
@@ -1136,7 +1136,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "were",
             "the",
@@ -1147,7 +1147,7 @@
             "the",
             "last",
             "3",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -1164,7 +1164,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Find",
             "the",
             "city",
@@ -1188,7 +1188,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "place",
             "was",
@@ -1201,7 +1201,7 @@
             "the",
             "last",
             "7",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -1220,7 +1220,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "were",
             "the",
@@ -1232,7 +1232,7 @@
             "the",
             "past",
             "24",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -1250,7 +1250,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Where",
             "did",
             "most",
@@ -1261,7 +1261,7 @@
             "the",
             "last",
             "3",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -1278,7 +1278,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "area",
             "was",
@@ -1289,7 +1289,7 @@
             "the",
             "last",
             "7",
-            "days?"
+            "days"
         ],
         "ner_tags": [
             "O",
@@ -1306,7 +1306,7 @@
         ]
     },
     {
-        "token": [
+        "tokens": [
             "Which",
             "area",
             "was",
@@ -1317,7 +1317,7 @@
             "the",
             "past",
             "48",
-            "hours?"
+            "hours"
         ],
         "ner_tags": [
             "O",
@@ -1346,7 +1346,7 @@
           "Hatzav",
           "Industrial",
           "Zone",
-          "higher?"
+          "higher"
         ],
         "ner_tags": [
           "O",
@@ -1375,7 +1375,7 @@
           "Tarshicha",
           "or",
           "Paran",
-          "today?"
+          "today"
         ],
         "ner_tags": [
           "O",
@@ -1405,7 +1405,7 @@
           "in",
           "the",
           "last",
-          "week?"
+          "week"
         ],
         "ner_tags": [
           "O",
@@ -1435,7 +1435,7 @@
           "HaGalil",
           "or",
           "Kerem",
-          "BeYavne?"
+          "BeYavne"
         ],
         "ner_tags": [
           "O",
@@ -1495,7 +1495,7 @@
           "in",
           "the",
           "last",
-          "month?"
+          "month"
         ],
         "ner_tags": [
           "O",
@@ -1523,7 +1523,7 @@
           "ago",
           "Lavi",
           "or",
-          "Migdal?"
+          "Migdal"
         ],
         "ner_tags": [
           "O",
@@ -1549,7 +1549,7 @@
           "yesterday,",
           "Tnuvot",
           "or",
-          "Amka?"
+          "Amka"
         ],
         "ner_tags": [
           "O",
@@ -1577,7 +1577,7 @@
           "Timorimg",
           "Industrial",
           "Zone",
-          "today?"
+          "today"
         ],
         "ner_tags": [
           "O",
@@ -1612,7 +1612,7 @@
           "the",
           "last",
           "6",
-          "months?"
+          "months"
         ],
         "ner_tags": [
           "O",
@@ -1647,7 +1647,7 @@
           "the",
           "most",
           "drone",
-          "alerts?"
+          "alerts"
         ],
         "ner_tags": [
           "O",
@@ -1680,7 +1680,7 @@
           "count",
           "of",
           "rocket",
-          "incidents?"
+          "incidents"
         ],
         "ner_tags": [
           "O",
@@ -1716,7 +1716,7 @@
           "the",
           "last",
           "two",
-          "weeks?"
+          "weeks"
         ],
         "ner_tags": [
           "O",
@@ -1783,7 +1783,7 @@
           "Menashe",
           "or",
           "El",
-          "For'eh?"
+          "For'eh"
         ],
         "ner_tags": [
           "O",
@@ -1812,7 +1812,7 @@
           "yesterday,",
           "Pelekh",
           "or",
-          "Ilania?"
+          "Ilania"
         ],
         "ner_tags": [
           "O",
@@ -1840,7 +1840,7 @@
           "Yearot",
           "HaCarmel",
           "this",
-          "month?"
+          "month"
         ],
         "ner_tags": [
           "O",
@@ -1869,7 +1869,7 @@
           "was",
           "the",
           "least",
-          "alerts?"
+          "alerts"
         ],
         "ner_tags": [
           "O",
@@ -1899,7 +1899,7 @@
           "in",
           "the",
           "last",
-          "year?"
+          "year"
         ],
         "ner_tags": [
           "O",
@@ -1929,7 +1929,7 @@
           "Katif",
           "or",
           "Atteret",
-          "higher?"
+          "higher"
         ],
         "ner_tags": [
           "O",
@@ -1964,7 +1964,7 @@
           "in",
           "the",
           "last",
-          "week?"
+          "week"
         ],
         "ner_tags": [
           "O",
@@ -2002,7 +2002,7 @@
           "the",
           "situation",
           "more",
-          "intense?"
+          "intense"
         ],
         "ner_tags": [
           "O",
@@ -2036,7 +2036,7 @@
           "Yagel",
           "or",
           "Bnei",
-          "Brak?"
+          "Brak"
         ],
         "ner_tags": [
           "O",
@@ -2126,7 +2126,7 @@
           "higher",
           "alert",
           "frequency",
-          "recently?"
+          "recently"
         ],
         "ner_tags": [
           "O",
@@ -2183,7 +2183,7 @@
           "the",
           "last",
           "three",
-          "months?"
+          "months"
         ],
         "ner_tags": [
           "O",
@@ -2276,7 +2276,7 @@
           "the",
           "last",
           "6",
-          "months?"
+          "months"
         ],
         "ner_tags": [
           "O",
@@ -2342,7 +2342,7 @@
           "frequency",
           "since",
           "last",
-          "week?"
+          "week"
         ],
         "ner_tags": [
           "O",
@@ -2373,7 +2373,7 @@
           "Kiryat",
           "Tivon",
           "Beit",
-          "Zaid?"
+          "Zaid"
         ],
         "ner_tags": [
           "O",
@@ -2406,7 +2406,7 @@
           "Rishpon",
           "or",
           "Mishmar",
-          "HaNegev?"
+          "HaNegev"
         ],
         "ner_tags": [
           "O",
@@ -2440,7 +2440,7 @@
           "week,",
           "Yafhiv",
           "or",
-          "Shafir?"
+          "Shafir"
         ],
         "ner_tags": [
           "O",
@@ -2471,7 +2471,7 @@
           "Ifat",
           "or",
           "Mevasseret",
-          "Zion?"
+          "Zion"
         ],
         "ner_tags": [
           "O",
@@ -2575,7 +2575,7 @@
           "Oz",
           "or",
           "Givat",
-          "Nili?"
+          "Nili"
         ],
         "ner_tags": [
           "O",
@@ -2720,7 +2720,7 @@
           "most",
           "Avtalion",
           "or",
-          "Almog?"
+          "Almog"
         ],
         "ner_tags": [
           "O",
@@ -2773,7 +2773,7 @@
           "of",
           "alert",
           "last",
-          "month?"
+          "month"
         ],
         "ner_tags": [
           "O",
@@ -2803,7 +2803,7 @@
           "higher",
           "alert",
           "frequency",
-          "recently?"
+          "recently"
         ],
         "ner_tags": [
           "O",
@@ -2862,7 +2862,7 @@
           "Mevo",
           "Horon",
           "or",
-          "Amirim?"
+          "Amirim"
         ],
         "ner_tags": [
           "O",
@@ -2894,7 +2894,7 @@
           "higher",
           "alert",
           "frequency",
-          "recently?"
+          "recently"
         ],
         "ner_tags": [
           "O",
@@ -2926,7 +2926,7 @@
           "targeted",
           "more",
           "often",
-          "recently?"
+          "recently"
         ],
         "ner_tags": [
           "O",

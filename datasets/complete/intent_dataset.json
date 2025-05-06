@@ -1,0 +1,2401 @@
+[{
+        "text": "Which area was hit the hardest in the past month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the last 2 weeks, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Over the past 24 hours, which place got the most alerts?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region experienced the most red alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 7 months?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 3 month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens in the past month.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most alerts triggered over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most rocket sirens in the past month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region had the most red alert activity during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens in the past 24 hours.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where did most red alerts occur in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Name the most alerted location in the past month.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Over during the past 48 hours, which place got the most alerts?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Top alerted city in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During  the last 7 days, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region experienced the most red alerts over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region had the most red alert activity since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Who had the highest alert count since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Since yesterday, which place got the most alerts?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Who had the highest alert count in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "In what area were the most alert sirens heard during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Top alerted city since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most rocket sirens over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where did most red alerts occur since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Tell me which city had the most alerts in the last 2 weeks.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city had the highest alert frequency in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region had the most red alert activity in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Top alerted city during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which region experienced the most red alerts in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most rocket sirens in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens since yesterday.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which place was the most targeted by alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the highest alert frequencies recorded in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where did most red alerts occur in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Tell me which city had the most alerts over the past week.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which location had the most red alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the highest alert frequencies recorded over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Name the most alerted location since yesterday.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count over the past week?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the past month, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which area was hit the hardest in the last 2 weeks?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count in the past 24 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which city saw the highest alert count in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "What area experienced the highest number of alerts since yesterday?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Who had the highest alert count in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the highest alert frequencies recorded in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which location had the most red alerts in the last 3 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the past week, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Which location had the most red alerts in the past month?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Tell me which city had the most alerts in the past month.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most alerts triggered during the past 48 hours?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Where were the most alerts triggered in the last 7 days?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "Find the city with the most sirens during the past 48 hours.",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "During the past 48 hours, which city had the most sirens?",
+        "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+        "text": "In terms of alert count, is Kamon or Hatzav Industrial Zone higher?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Were there more alerts in Ma'a lot Tarshicha or Paran today?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Were there more alerts in Tal-El or Har Halutz in the last week?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Where there more alarms yesterday in Alon HaGalil or Kerem BeYavne?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Tell me where there were more alerts, Ein Gedi Baths or Bar Yochai.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Has Yarkona or Tuval experienced more alerts in the last month?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "who has experienced more alerts 3 weeks ago Lavi or Migdal?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which city had more alerts yesterday, Tnuvot or Amka?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Were there more alerts in Ruppin Academic Center or Timorimg Industrial Zone today?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Genigar Ganot and Nitzanei Oz, which had higher alert frequency in the last 6 months?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Out of Yesud Hama'ala and Nabi Shu'ayb, where was the most drone alerts?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Out of Kfar HaNagid and Lapid, who had the highest count of rocket incidents?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Gan Haim and Givat Yearim, which had higher alert frequency in the last two weeks?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Compare alert activity between Mizra and Pri Gan over the past 24 hours.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which city had more terrorist intrusion alerts yesterday, Ramot Menashe or El For'eh?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which alert zone had more alerts yesterday, Pelekh or Ilania?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Were there more alerts in Givat Wolfson or Yearot HaCarmel this month?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Out of Menucha and Deir al-Asad, where was the least alerts?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Has Shavei Zion sufferd from more alerts then Ofarim in the last year?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In terms of alert count, is Karmei Katif or Atteret higher?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Did the alarm go off in Lakhish more often then it did in Kmehin in the last week?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Out of Ein HaBsor and Tamra Industiral Park, where was the situation more intense?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which had more red alerts in the last 7 days, Yagel or Bnei Brak?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Least alarms this week: Beit Nir or Ad Halom Industrial Zone?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Where there less alerts in Moreshet or Gonen since the october 7?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Ramat Gan - West and Kisra-Sumei, which had higher alert frequency recently?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "where there more alarms yesterday in Nachal Oz or Brosh?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Has Kidmat Zvi or Heletz experienced more alerts in the last three months?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Compare alert activity between Shoham and Shoresh over the past 24 hours.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Tell me where there were more alerts, Nordia or Mishmar Ayalon.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Out of Mashabei Sadeh and Bat Hadar, Who had fewer alerts in the last 6 months?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Compare alert activity between Yardena and Hamra over the past 24 hours.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Bnei Darom Compound and Kadoorie, which had higher alert frequency since last week?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Who had fewer alerts Kiryat Malachi or Kiryat Tivon - Beit Zaid?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which alert area had a greater number of UAV alerts last week Rishpon or Mishmar HaNegev?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which had more red alerts in the last week, Yafhiv or Shafir?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Can you tell me where there were more alerts, Ifat or Mevasseret Zion?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In terms of alert count, is Ramat Trump or Sufa higher?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In terms of missile alerts, who has experienced more attacks in the last 40 minutes Be'eri or Gan Yoshia",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which area had the most rocket alerts yesterday, Migdal Oz or Givat Nili?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In terms of alert number, is Nahalal higher then Rishpon?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Gesher and Bar Lev Industrial Zone, which had higher alert frequency last 6 months?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Compare alert activity between Sgula and Merav over the past 48 hours.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Gitit and Avdon, which had higher alert frequency recently?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Who was attacked the most? Avtalion or Almog?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Were there fewer alerts in Beit Oved or Matan today?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Did Gan Haim or Barkan experienced the same amount of alert last month?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Kfar Szold and Tira, which had higher alert frequency recently?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In terms of drone alerts count, is Beka'ot or Kfar Vradim higher?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which city had more alerts since last sunday, Mevo Horon or Amirim?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Elon Moreh and Ramat Dalton Industrial Zone, which had higher alert frequency recently?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Out of Achihud and Srigim-Li On, who were targeted more often recently?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which city had more alerts yesterday, Tefahot or Al Arian?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Tell me where there were more alerts, Kfar Uriah or Jerusalem.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which alert zone was more commonly triggered in the last 72 hours, Kissufim or Negba?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In terms of alert events, is Haniel or Gidona higher?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which had more red alerts in the past week: Netanya or Ashkelon?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Compare the number of alerts between Sderot and Beersheba this month.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Was there more rocket activity yesterday in Tel Aviv or Haifa?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Eilat and Kiryat Shmona, which experienced more alerts lately?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which area had more sirens in the last 48 hours: Lod or Ramla?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "More alarms in the past 24 hours: Ashdod or Ramat Gan?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which had more recent alerts, Holon or Bat Yam?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Who had a worse alert situation this week, Rishon LeZion or Herzliya?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Compare alert frequency last month between Nahariya and Acre.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Tell me which had more alarms recently, Dimona or Arad.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In the last three days, were there more alerts in Modi'in or Rehovot?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Has Givatayim had more red alerts than Petah Tikva lately?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Were there more alerts in Beit Shemesh or Jerusalem over the past week?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Between Tiberias and Safed, which had more sirens in the last few days?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Compare rocket alerts between Kfar Saba and Hod HaSharon yesterday.",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which had more red alerts in the past 72 hours: Ashkelon or Ofakim?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "In terms of alert count, did Afula or Migdal HaEmek have more recently?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Which city was more affected by alarms in the last 2 days: Netivot or Rahat?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "More sirens recently: Ramat Hasharon or Kiryat Gat?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+        "text": "Has Ashdod seen more red alerts than Raanana this month?",
+        "intent": "COMPARE_LOCATIONS"
+    },
+    {
+      "text": "During the last 2 weeks, which city had the most sirens?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Over the past 24 hours, which place got the most alerts?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region experienced the most red alerts in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city had the highest alert frequency in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "What area experienced the highest number of alerts in the last 2 weeks?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which place was the most targeted by alerts in the last 7 months?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest in the past month?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which place was the most targeted by alerts in the last 3 month?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Find the city with the most sirens in the past month.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the most alerts triggered over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city had the highest alert frequency during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the most rocket sirens in the past month?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region had the most red alert activity during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Find the city with the most sirens in the past 24 hours.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where did most red alerts occur in the last 2 weeks?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts in the past month.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "What area experienced the highest number of alerts over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Name the most alerted location in the past month.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Over during the past 48 hours, which place got the most alerts?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Top alerted city in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city had the highest alert frequency in the past 24 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "During in the last 7 days, which city had the most sirens?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region experienced the most red alerts over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region had the most red alert activity since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Who had the highest alert count since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city had the highest alert frequency in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Over since yesterday, which place got the most alerts?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Who had the highest alert count since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Who had the highest alert count in the past 24 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "In what area were the most alert sirens heard during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Top alerted city since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Over since yesterday, which place got the most alerts?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the most rocket sirens over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where did most red alerts occur since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region had the most red alert activity during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Find the city with the most sirens since yesterday.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest in the past 24 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts in the last 2 weeks.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region had the most red alert activity during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city had the highest alert frequency in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the highest alert frequencies recorded in the past 24 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region had the most red alert activity in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Top alerted city during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region experienced the most red alerts in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "During over the past week, which city had the most sirens?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which place was the most targeted by alerts in the last 2 weeks?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which place was the most targeted by alerts over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the most rocket sirens in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Name the most alerted location since yesterday.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Find the city with the most sirens since yesterday.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which place was the most targeted by alerts in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts in the past month.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the highest alert frequencies recorded in the past 24 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where did most red alerts occur in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts over the past week.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "What area experienced the highest number of alerts during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts in the last 2 weeks.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which location had the most red alerts in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the highest alert frequencies recorded over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "What area experienced the highest number of alerts in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Name the most alerted location since yesterday.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region had the most red alert activity during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city saw the highest alert count over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "During the past month, which city had the most sirens?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city saw the highest alert count over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city saw the highest alert count in the last 2 weeks?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region had the most red alert activity since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city saw the highest alert count in the last 2 weeks?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest in the last 2 weeks?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city saw the highest alert count in the past 24 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts over the past week.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region experienced the most red alerts in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which city saw the highest alert count in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts in the last 2 weeks.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest in the last 2 weeks?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "What area experienced the highest number of alerts since yesterday?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Who had the highest alert count in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the highest alert frequencies recorded in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "What area experienced the highest number of alerts over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which location had the most red alerts in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "During the past week, which city had the most sirens?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which area was hit the hardest during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which location had the most red alerts in the past month?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Tell me which city had the most alerts in the past month.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the most rocket sirens in the past month?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Find the city with the most sirens in the past month.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which place was the most targeted by alerts over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the most alerts triggered during the past 48 hours?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Where were the most alerts triggered in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Find the city with the most sirens during the past 48 hours.",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region experienced the most red alerts in the last 3 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "During the past 48 hours, which city had the most sirens?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "What area experienced the highest number of alerts in the last 7 days?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    {
+      "text": "Which region experienced the most red alerts over the past week?",
+      "intent": "MOST_ALERTED_LOCATION"
+    },
+    { "text": "What's your favorite color?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Can you cook pasta?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Tell me a joke.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What time is it in New York?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Translate hello to French.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "How tall is Mount Everest?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Play some music.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Can you order me a pizza?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Who won the last World Cup?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What's the weather like tomorrow?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Define photosynthesis.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Book a flight to Rome.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "How many calories in an avocado?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What's the capital of Canada?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Can you help me with math homework?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Do aliens exist?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What are the top 10 Netflix shows?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What's the latest news in tech?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Generate a random password for me.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Open the calculator app.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Set a timer for 10 minutes.", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What's the best way to learn Python?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Can you tell me a fun fact?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "How do I make a paper airplane?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What are the symptoms of the flu?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "Can you recommend a good book?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "What's the fastest land animal?", "intent": "DEFAULT_FALLBACK" },
+  { "text": "How do I tie a tie?", "intent": "DEFAULT_FALLBACK" },
+  {
+    "text": "How many ice creams were sold in Tel Aviv yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many pizzas were ordered in Haifa last night?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many buses arrived in Be’er Sheva yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were there any train delays in Jerusalem today?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many bicycles were rented in Netanya this week?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Did Herzliya have more beach visitors than Eilat yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many hot dogs were sold in Ashdod during the last 24 hours?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Was there more rain in Rishon LeZion or in Rehovot this week?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Which city had more dog adoptions yesterday, Kfar Saba or Ra’anana?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many people visited the cinema in Hadera yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were more falafels eaten in Holon or in Bat Yam yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many concerts were held in Petah Tikva last month?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many coffee cups were sold in Givatayim today?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Which park had the most visitors this weekend?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Was there more noise in Tel Aviv or in Ramat Gan last night?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many taxis operated in Kiryat Ono yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many shirts were bought in Azrieli mall yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were there more gym check-ins in Modi'in or Yehud today?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many pizzas were delivered in Or Yehuda during the night?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Did more people visit the beach in Tel Aviv or Netanya this weekend?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many umbrellas were sold in Ashkelon last Friday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many coffee shops opened in Tel Aviv this week?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Did more people jog in Ramat Aviv or in Giv'at Shmuel yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were there more sushi orders in Eilat or Herzliya yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many students were absent from school in Lod today?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Was there more traffic in Bat Yam or Petah Tikva this morning?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many tourists visited Masada last week?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were more cakes sold in Rishon LeZion or Ashdod yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many bikes were stolen in Tel Aviv in the last 3 days?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Did more dogs bark in Holon or in Yehud yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many calls were made from Kiryat Gat yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "What was the most played song in Netivot this week?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many people ordered pizza in Givatayim last night?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were there more selfies taken in Rehovot or Ramla this week?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many sandwiches were sold in Be'er Sheva today?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Which mall was busier yesterday, Ayalon or Grand?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many hours was the cinema open in Ra'anana last Sunday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were more coffees drunk in Bnei Brak or Giv'atayim yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many burgers were sold in Kfar Saba yesterday evening?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Was it hotter in Ashkelon or in Netanya today?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many taxis were active in Tel Aviv last night?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were there more accidents in Herzliya or Kfar Shmaryahu yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many packages were delivered in Modi'in last 24 hours?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Which gym had more check-ins in the past day?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many emails were sent from Ramat Gan offices yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Which city had more sunrise photos shared on Instagram yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many cars were washed in Hod Hasharon this week?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Was it windier in Netanya or Ashdod yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many delivery orders were placed in Nahariya yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Which city had more laundry loads yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were more flowers sold in Tel Aviv or in Ramat Hasharon yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many dogs were walked in Herzliya yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many taxis were requested in Haifa last Saturday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Which beach had more visitors in the last 24 hours?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were more wedding events held in Ashkelon or Netivot yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many books were checked out from the library in Raanana?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Did more balloons pop in Tel Aviv or Holon last night?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many tennis games were played in Rehovot this weekend?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "Were there more bus rides in Yavne or Ramat Gan yesterday?",
+    "intent": "DEFAULT_FALLBACK"
+  },
+  {
+    "text": "How many red alerts where there in Zru'a ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there rocket alerts in Kfar Vitkin last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Tuval ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any red alerts in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Gan Ner ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there missile alerts in Kidmat Zvi yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many red alerts where there in Confrontation Line yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there less than 80 rocket alerts in Eshkolot yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Retrieve all terrorist attacks on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any rocket alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many red alerts where recorded in Gvat last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Khawaled ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there exactly 44 rocket alerts in Almog this month ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any missile alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many red alerts where there in Neot Kedumim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in Beit Yossef ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Show me the number of red alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any red alerts last week ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "I want to know how many drone intrusion alerts where activated in Mamshit yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there missile alerts in Tzurit Gilon last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many missiles where fired on Northern Golan ?",
+    "intent": "DEFAULT"
+  },
+  {
+    "text": "How many rocket alerts where there in Western Lakhish yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any red alerts on this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many terrorist attacks where there in Wadi Ara in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Gaza Envelope ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many red alerts where there in Beit Alfa and Heftziba ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many drone intrusion alerts in Kfar Tikva yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many terrorist penetration where there in Menashe ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there less than 200 rocket alerts in Sdeh Ilan yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last missile alert in Ein Gedi Baths ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many red alerts where there in Even Yehuda ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Tell me all missile sirens activated on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many rocket alerts where there in Kmehin ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Tell me all rocket alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Give me all red alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Show me the number of red alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last rocket alert in Ein Chod ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in Gaza Envelope ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Show me the number of drone intrusion alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many rocket alerts where there in Center Galilee ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any missile alerts on last week ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Has there been any drone intrusion alerts in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Show me the number of rocket alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Nir Zvi ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many red alerts where there in Southern Golan this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any drone intrusion alerts this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many enemy intrusion alerts where there in Wadi Ara in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there exactly 70 drone intrusion alerts in Kfar Tapuach this month ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Show me all UAV alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many red alerts in Kfar Shmaryahu yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Tell me the number of rocket sirens on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Retrieve all drone intrusion alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there drone intrusion alerts in Dalia this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Give me all rocket alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any rocket alerts in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Give me all red alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Tell me the number of drone intrusion alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last missile alert in Migdal Oz ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Northern Golan last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many terrorist alerts where there in Latrun ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many terrorist penetrations where there in Beit Sha'an Valley ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Tell me the number of terrorist intrusions on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last missile alert in Elazar ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any missile alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "When was the last rocket siran in Kokhav Ya'ir - Tzur Yigal ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there exactly 15 red alerts in Yanuv in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any drone intrusion alerts this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any drone intrusion alerts this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket sirens where there in the past 24 hours in Menashe ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Can you tell how many terrorist infiltration alerts where in Nir Galim in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Western Negev yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Wadi Ara last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last red alerts in Daliyat al-Karmel ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there less than 44 UAV alerts in Harutzim yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last red alerts in Ora ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Retrieve the number of rocket alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many terrorist breach alerts where there in the past 24 hours in Shfelat Yehuda ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there less than 80 missile alerts in Yasur yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there missile fired at Kfar Yedidia yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any missile alerts this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Were there rocket alerts in Revadim Industrial Zone in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last missile alert in Avdon ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any rockets shot last week ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Were there drone intrusion alerts in Bror Hayil in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any terrorist alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Tell me all missile alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many red alerts where there in Gan Haim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last terrorist alert in Afek ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last terrorist intrusion alert in Tzahar Industrial Zone ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Center Galilee in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many terrorist penetration alerts where there in Shfelat Yehuda this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there more than 150 terrorist alerts in Ashdod - Gimmel,Vav,Zain last week ?",
+    "intent": "COMPARE_ALERTS_CITIES"
+  },
+  {
+    "text": "When was the last red alerts in Horashim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last drone intrusion alert in Wingate Institute ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any rocket alerts in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any red alerts in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any terrorist attacks yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "check if there been any rockets fired yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Give me the number of all alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any UAV attacks in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last rocket alert in Abirim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last rocket alert in Tzur Natan ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in HaCarmel last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Kiryat Ono ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last red alerts in Tzofar ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Please tell me has there been fire alerts in the last 24 hours in Givati ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many terrorist attack alerts where there in Northern Golan this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many missile fired at Bika'a ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many terrorist attacks where there in Merav Center ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any rocket alerts this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Were there rocket alerts in Jerusalem - Qafr 'Aqab this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many terrorist intrusions where there in Masada ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there less than 15 drone intrusion alerts in Afikim last week ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many terrorist infiltration where there in Dead Sea ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Show me all drone intrusion alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Retrieve the number of rocket alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any rocket alerts last week ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many drone attacks where there in Beit Sha'an Valley ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there exactly 80 alerts in Megadim last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many missile sirens where there in Shfelat Yehuda this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Tell me the number of drone threat detected on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many red alerts where there in Wadi Ara ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any drone intrusion detected yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there red alerts in Shlomit in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Give me the number of terrorist attacks on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many rocket alerts where there in Wadi Ara ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Give me the number of drone threat alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any red alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Were there rocket alerts in Migron this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last drone alert in Talmei Yaffe ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many red alerts where there in Dan this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there red alerts in Isfiya in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "in Alonei Itzhak has there been any drone attack alerts this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many drone attacks where there in Upper Galilee ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there exactly 20 red alerts in Nofei Nehemiah yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many missile alerts where there in Jerusalem yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any missile alerts this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many terrorist alerts where there in Lower Galilee this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last rocket alert in Ma'galim, Giv'olim, M'lilot ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many missile alerts where there in Kfar Nehar HaYarden ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there less than 150 UAV intrusion alerts in Hadid last week ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many red alerts where there in Western Negev this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Adanim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "in the last week Were there drone intrusion alerts in Hila ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Tell me the number of red alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Show me all rocket alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many enemy infiltration alerts where there in Menashe ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last UAV intrusion alert in Har Amsha ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in Kfar HaNagid ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many red alerts where there in Western Lakhish ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in Yarkon yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Tell me the number of rocket alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last UAV intrusion alert in Einav ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there exactly 200 red alerts in Talmei Bilu last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last rocket alert in Kfar Eldad ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many red alerts where there in Ein HaEmek ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many missile alerts where there in Menashe in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many red alerts where there in Rotem ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Retrieve the number of drone intrusion alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many enemy intrusions where there in Be'er Yacov ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there less than 19 drone infiltration alerts in Givon HaHadasha in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any red alerts this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Has there been any drone intrusion alerts in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many terrorist alerts where there in Arabah ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many terrorist alerts in Beko'a last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there more than 32 terrorist alerts in Kishor in the last day ?",
+    "intent": "COMPARE_ALERTS_CITIES"
+  },
+  {
+    "text": "How many missile alerts where there in Wadi Ara this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many red alerts where there in Oron Industry and Commerce ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there less than 22 missile alerts in Shalva this month ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Show me all drone infiltration alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many missile alerts where there in Gaza Envelope yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any red alerts in the last 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many red alerts where there last week in Central Negev ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Has there been any drone infiltration alerts in the past week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many drone infiltration alerts where there in Pelekh ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there more than 100 terrorist infiltration alerts in Ha'On last week ?",
+    "intent": "COMPARE_ALERTS_CITIES"
+  },
+  {
+    "text": "Has there been any missile alerts in the last 2 days ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any drone infiltration alerts yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many red alerts where there in Southern Negev in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last drone infiltration alert in Nir Zvi ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any terrorist infiltration alerts last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any missile alerts in the past month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many terrorist infiltration alerts where there in Sdeh Moshe ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in Northern Golan ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last missile alert in Regavim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there exactly 40 rocket alerts in Havat Gil'ad last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any missile alerts in the past month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many red alerts where there in Center Galilee last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many terrorist attack alerts where there in Gazit ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many missile alerts where there in Kalanit ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where triggered in Dan ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there terrorist attack alerts in Kfar Etzion last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Tell me the number of missile fired on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many missile alerts fired at HaAmakim in the past week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many terrorist infiltrations where activated in Northern Golan this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many drone infiltration alerts raised in Shamir ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Tell me the number of missile alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last rocket alert in Yatzitz ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rockets where shot at Ashkelon Northern Industrial Zone ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last missile alert in Amikam ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there less than 80 red alerts in Re'em Industrial Park this month ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many rocket alerts where activated in Givat Brenner ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Fetch all of the drone infiltration alerts in Kfar Kara this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many alerts where in Turan yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any rocket alerts last week ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "When was the last drone infiltration alert in HaSollelim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many missile alerts where triggered in Psagot ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many missile alerts where there in Nesher Industrial Zone (Ramla) ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Give me the number of enemy intrusion alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Give me all of the terrorist alerts fired on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Give me the number of drone infiltration alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there drone intrusion alerts in Ben Ami in the past 12 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many red alerts fired in Poria Illit ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many UAV intrusion alerts where triggered in the Southern Negev the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any UAV intrusion alerts this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in the Southern Golan last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any missile alerts last week ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Tell me the number of red alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any red alerts last week ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "present all rocket alerts in Kfar Galim yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Western Negev last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any rocket alerts this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Give me all red alerts from January 1 2022",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rockets where fired at the Yarkon ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "When was the last terrorist breach alert in Tira ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Retrieve the number of terrorist intrusion alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Show me all red alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any red alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many UAV alerts where there in Center Galilee ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any earthquake alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Lakhish in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Do you know how many missile alerts where there in Maskiot in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there more than 150 drones spotted in Ashdod - Het,Tet,Yod,Yod Gimmel,Yod Dalet,Tet Zain in the past 24 hours ?",
+    "intent": "COMPARE_ALERTS_CITIES"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Abu Snan ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Tell me the number of red alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many missile alerts where activated in Acco - Industrial Zone this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Show me all drone alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Give me the number of rocket alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last drone infiltration alert in Be'eri ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Show me all earthquake on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any drone alerts on yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Tell me all rocket alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there exactly 19 drone infiltration alerts in Laqiya yesterday ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there less than 32 red alerts in Kfar Yona Industrial Zone last week ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many missile alerts where there in Yarkon in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many drone intrusion alerts where there in Shfela (Lowlands) ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in Otniel ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "How many rocket alerts where there in Dead Sea this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Give me the number of rocket alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there exactly 44 red alerts in Idan last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Give me the number of missile alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any rocket alerts on this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many unmanned aerial vehicle intrusion alerts where there in Shoval ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any missile alerts this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Sdeh Nechemia ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there red alerts in HaMa'apil last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any red alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Were there red alerts in Srigim-Li in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Shfela (Lowlands) ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any red alerts in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last drone alert in Ramat HaShofet ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Give me the number of red alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Has there been any red alerts on this month ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "When where the red alerts in Daniel yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Tell me the number of unmanned aerial vehicle intrusion alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Please show me all red alerts in Beit Nir last week ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "When was the last drone alert in Tirosh ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Has there been any missile alerts on yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "Retrieve the number of rocket alerts on March 5 2024",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many missile alerts where there in Yad Natan ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Were there exactly 50 red alerts in HaBonim this month ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there exactly 44 missile alerts in Hevel Modi'in Industrial Zone in the past 24 hours ?",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Give me the number of red alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many rocket alerts where there in Samaria ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Retrieve all missile alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "When was the last red alerts in Kfar Zoharim ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Show me the number of red alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many red alerts has there been in Kiryat Mal'akhi-Yoav train station this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Has there been any red alerts yesterday ?",
+    "intent": "ALERTS_IN_TIME"
+  },
+  {
+    "text": "How many missile alerts where there in Shfela (Lowlands) in the past 24 hours ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there red alerts in Kiryat Tivon - Beit Zaid this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "How many rocket alerts where there in Yarkona ?",
+    "intent": "ALERTS_IN_LOCATION"
+  },
+  {
+    "text": "Show me all red alerts on January 1 2022",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "Were there rocket alerts in Even Shmuel this month ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  },
+  {
+    "text": "Were there more than 19 drone intrusion alerts in Ariel Industrial Park in the past 24 hours ?",
+    "intent": "COMPARE_ALERTS_CITIES"
+  },
+  {
+    "text": "Were there more than 60 missile alerts in Ein Mahil yesterday ?",
+    "intent": "COMPARE_ALERTS_CITIES"
+  },
+  {
+    "text": "Retrieve the number of drone infiltration alerts on April 15 2023",
+    "intent": "ALERTS_ON_DATE"
+  },
+  {
+    "text": "How many missile alerts where there in Center Galilee yesterday ?",
+    "intent": "ALERTS_IN_LOCATION_TIME"
+  }
+]

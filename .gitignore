@@ -3,5 +3,6 @@ venv/
 __pycache__/
 *.gz
 *.zip
-/ner_varied_model
+/ner_model_roberta
+/intent_model
 /ner_expanded_bert_model
