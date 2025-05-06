@@ -2074,7 +2074,7 @@
     {
         "text": " Hi I have a question",
         "intent": "GREETING"
-    }
+    },
     {
         "text": "Hello there",
         "intent": "GREETING"
