@@ -1017,7 +1017,7 @@
     },
     {
         "text": "How many missiles where fired on Northern Golan ?",
-        "intent": "DEFAULT"
+        "intent": "GET_ALERTS"
     },
     {
         "text": "How many rocket alerts where there in Western Lakhish yesterday ?",
