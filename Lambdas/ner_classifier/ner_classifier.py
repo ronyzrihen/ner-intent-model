@@ -20,6 +20,7 @@ def lambda_handler(event, context):
     if event.get("body", ""):
         body = event.get("body", "{}")
         text = body.get("text", "")
+        intent = body.get("label", "DEFAULT")
         language = body.get("language", "english")
     else:
         text = event.get("text", "")
@@ -34,7 +35,8 @@ def lambda_handler(event, context):
         "body": {
             "entities": classifications,
             "input": text,
-            "language": language
+            "language": language,
+            "intent": intent
         }
         }
 
