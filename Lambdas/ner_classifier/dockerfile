@@ -7,6 +7,6 @@ RUN pip install torch \
     transformers numpy
 RUN pip install wordninja
 
-COPY Lambdas/ner_classifier.py ./
+COPY ner_classifier.py ./
 
-CMD ["classify.lambda_handler"]
+CMD ["ner_classifier.lambda_handler"]

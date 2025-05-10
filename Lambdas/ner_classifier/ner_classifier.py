@@ -1,21 +1,29 @@
-
 from transformers import pipeline
 import json
 import wordninja
 import os
 
 
+model_path = os.environ.get("MODEL_PATH", "ner_model_roberta")
+nlp = pipeline(
+    "ner",
+    model=model_path,
+    tokenizer=model_path,
+    aggregation_strategy="simple"
+)
+
+
 def lambda_handler(event, context):
-    model_path = os.environ.get("MODEL_PATH", "testing/ner_varied_model1")
+    if isinstance(event, str):
+        event = json.loads(event)
     print(event)
     if event.get("body", ""):
-        body = json.loads(event.get("body", "{}"))
+        body = event.get("body", "{}")
         text = body.get("text", "")
         language = body.get("language", "english")
     else:
         text = event.get("text", "")
         language = event.get("language", "english")
-    nlp = pipeline("ner", model=model_path, tokenizer=model_path, aggregation_strategy="simple")
     entities = nlp(text)
     for item in entities:
         item["score"] = float(item["score"])
@@ -23,7 +31,11 @@ def lambda_handler(event, context):
     print(classifications)
     return {
         "statusCode": 200,
-        "body": {"entities": classifications, "input": text, "language": language }
+        "body": {
+            "entities": classifications,
+            "input": text,
+            "language": language
+        }
         }
 
 
@@ -33,6 +45,7 @@ def merge_subwords(ner_results):
     sub_words_count = 1
 
     for entity in ner_results:
+        print(entity)
         if current_entity:
             if entity["entity_group"] == current_entity["entity_group"]:
                 current_entity["word"] += entity["word"]
@@ -58,10 +71,11 @@ def split_if_needed(word):
     return " ".join(parts) if len(parts) > 1 else word
 
 
-# if __name__ == "__main__":
-#     event = {
-#         "text": "How many missile alerts were there in Tel Aviv three days ago",
-#         "language": "hebrew"
-#     }
-#     context = {}
-#     print(lambda_handler(event, context))
+if __name__ == "__main__":
+    test_event = {
+        "body": {
+            "text": "How many red alerts where there in Tel Aviv yesterday?",
+            "language": "english"
+        }
+    }
+    print(lambda_handler(test_event, None))
