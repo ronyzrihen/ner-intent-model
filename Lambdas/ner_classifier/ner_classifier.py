@@ -19,22 +19,25 @@ def lambda_handler(event, context):
     print(event)
     if event.get("body", ""):
         body = event.get("body", "{}")
-        text = body.get("text", "")
+        text = body.get("input", "")
+        intent = body.get("label", "DEFAULT")
         language = body.get("language", "english")
     else:
-        text = event.get("text", "")
+        text = event.get("input", "")
         language = event.get("language", "english")
+        intent = event.get("intent", "DEFAULT")
     entities = nlp(text)
     for item in entities:
         item["score"] = float(item["score"])
-    classifications = merge_subwords(entities)
-    print(classifications)
+    # classifications = merge_subwords(entities)
+    # print(classifications)
     return {
         "statusCode": 200,
         "body": {
-            "entities": classifications,
+            "entities": entities,
             "input": text,
-            "language": language
+            "language": language,
+            "intent": intent
         }
         }
 
