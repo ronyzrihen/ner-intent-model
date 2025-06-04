@@ -19,7 +19,7 @@ def lambda_handler(event, context):
         print("here: ", text, language)
     res = nlp(text)[0]
     res["language"] = language
-    res["text"] = text
+    res["input"] = text
     print(res)
     return {
         "statusCode": 200,
